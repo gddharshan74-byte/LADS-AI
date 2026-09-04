@@ -1,0 +1,63 @@
+project_1,project_2,category,similarity_pct,description_1,description_2
+P0035,P0102,Bus Shelter,100.0,Construction of public bus shelter at Kochi,Construction of public bus shelter at Kochi
+P0035,P0142,Bus Shelter,100.0,Construction of public bus shelter at Kochi,Construction of public bus shelter at Kochi
+P0093,P0266,Bus Shelter,100.0,Improvement of passenger shelter at Pune,Improvement of passenger shelter at Pune
+P0102,P0142,Bus Shelter,100.0,Construction of public bus shelter at Kochi,Construction of public bus shelter at Kochi
+P0150,P0198,Bus Shelter,100.0,Bus shelter development near Thrissur,Bus shelter development near Thrissur
+P0222,P0253,Bus Shelter,100.0,Improvement of passenger shelter at Chennai,Improvement of passenger shelter at Chennai
+P0291,P0292,Bus Shelter,100.0,Construction of bus shelter at Main Bus Stop,Construction of bus shelter in Main Bus Stop
+P1004,P0031,Community Hall,100.0,Construction of community hall in Ward 12,Construction of community hall at Ward 12
+P1004,P0032,Community Hall,100.0,Construction of community hall in Ward 12,Construction of community hall in Ward 12
+P0031,P0032,Community Hall,100.0,Construction of community hall at Ward 12,Construction of community hall in Ward 12
+P0051,P0277,Community Hall,100.0,Community hall construction near Tiruchirappalli,Community hall construction near Tiruchirappalli
+P0160,P0290,Community Hall,100.0,Construction of community hall in Bhubaneswar,Construction of community hall at Bhubaneswar
+P0170,P0269,Community Hall,100.0,Construction of community hall in Bhopal,Construction of community hall at Bhopal
+P0072,P0214,Drainage,100.0,Construction of roadside drainage at Patna,Construction of roadside drainage at Patna
+P0181,P0182,Drainage,100.0,Construction of drainage at Market Road,Construction of drainage in Market Road
+P0188,P0204,Drainage,100.0,Construction of storm water drain at Bhubaneswar,Construction of storm water drain at Bhubaneswar
+P0055,P0153,Drinking Water,100.0,Installation of drinking water facility at Bhopal,Installation of drinking water facility at Bhopal
+P0063,P0119,Drinking Water,100.0,Installation of drinking water facility at Lucknow,Installation of drinking water facility at Lucknow
+P0063,P0255,Drinking Water,100.0,Installation of drinking water facility at Lucknow,Installation of drinking water facility at Lucknow
+P0119,P0255,Drinking Water,100.0,Installation of drinking water facility at Lucknow,Installation of drinking water facility at Lucknow
+P0121,P0122,Drinking Water,100.0,Construction of drinking water at Village Main Street,Construction of drinking water in Village Main Street
+P0127,P0221,Drinking Water,100.0,Water supply improvement work at Madurai,Water supply improvement work at Madurai
+P0167,P0297,Drinking Water,100.0,Water supply improvement work at Hubballi,Water supply improvement work at Hubballi
+P0284,P0294,Drinking Water,100.0,Installation of drinking water facility at Kanchipuram,Installation of drinking water facility at Kanchipuram
+P0029,P0196,Health Facility,100.0,Health facility improvement work at Chennai,Health facility improvement work at Chennai
+P0124,P0194,Health Facility,100.0,Health facility improvement work at Mysuru,Health facility improvement work at Mysuru
+P0151,P0152,Health Facility,100.0,Construction of health facility at Primary Health Centre,Construction of health facility in Primary Health Centre
+P0183,P0239,Health Facility,100.0,Construction of patient waiting area at Pune Health Centre,Construction of patient waiting area at Pune Health Centre
+P0183,P0268,Health Facility,100.0,Construction of patient waiting area at Pune Health Centre,Construction of patient waiting area at Pune Health Centre
+P0208,P0282,Health Facility,100.0,Construction of patient waiting area at Bhubaneswar Health Centre,Construction of patient waiting area at Bhubaneswar Health Centre
+P0239,P0268,Health Facility,100.0,Construction of patient waiting area at Pune Health Centre,Construction of patient waiting area at Pune Health Centre
+P0128,P0163,Irrigation,100.0,Construction of irrigation channel near Lucknow,Construction of irrigation channel near Lucknow
+P0021,P0039,Library,100.0,Library building improvement at Nagpur,Library building improvement at Nagpur
+P0164,P0295,Library,100.0,Development of reading room at Nagpur,Development of reading room at Nagpur
+P0241,P0242,Library,100.0,Construction of library at Town Library,Construction of library in Town Library
+P0017,P0071,Road,100.0,Improvement of road connecting Tiruchirappalli,Improvement of road connecting Tiruchirappalli
+P0061,P0062,Road,100.0,Construction of road at Panchayat Road,Construction of road in Panchayat Road
+P0154,P0209,Road,100.0,Construction of village road near Patna,Construction of village road near Patna
+P0054,P0081,Sanitation,100.0,Improvement of sanitation facilities in Thrissur,Improvement of sanitation facilities in Thrissur
+P0085,P0178,Sanitation,100.0,Construction of community toilet at Bhopal,Construction of community toilet at Bhopal
+P0085,P0238,Sanitation,100.0,Construction of community toilet at Bhopal,Construction of community toilet at Bhopal
+P0111,P0219,Sanitation,100.0,Construction of public sanitation facility at Indore,Construction of public sanitation facility at Indore
+P0177,P0201,Sanitation,100.0,Construction of public sanitation facility at Bhopal,Construction of public sanitation facility at Bhopal
+P0178,P0238,Sanitation,100.0,Construction of community toilet at Bhopal,Construction of community toilet at Bhopal
+P0215,P0283,Sanitation,100.0,Improvement of sanitation facilities in Nagpur,Improvement of sanitation facilities in Nagpur
+P0027,P0273,School Building,100.0,Construction of additional classrooms at Kanchipuram School,Construction of additional classrooms at Kanchipuram School
+P0091,P0092,School Building,100.0,Construction of school building at Government Higher Secondary School,Construction of school building in Government Higher Secondary School
+P0097,P0099,School Building,100.0,Renovation and extension of classrooms at Patna School,Renovation and extension of classrooms at Patna School
+P0138,P0156,School Building,100.0,Renovation and extension of classrooms at Chennai School,Renovation and extension of classrooms at Chennai School
+P0145,P0155,School Building,100.0,Renovation and extension of classrooms at Erode School,Renovation and extension of classrooms at Erode School
+P0145,P0230,School Building,100.0,Renovation and extension of classrooms at Erode School,Renovation and extension of classrooms at Erode School
+P0155,P0230,School Building,100.0,Renovation and extension of classrooms at Erode School,Renovation and extension of classrooms at Erode School
+P0024,P0281,Sports Facility,100.0,Development of community sports ground at Thrissur,Development of community sports ground at Thrissur
+P0173,P0250,Sports Facility,100.0,Construction of sports facility at Indore,Construction of sports facility at Indore
+P0258,P0270,Sports Facility,100.0,Construction of sports facility at Kochi,Construction of sports facility at Kochi
+P0271,P0272,Sports Facility,100.0,Construction of sports facility at Community Ground,Construction of sports facility in Community Ground
+P0084,P0174,Street Lighting,100.0,Street lighting improvement in Thrissur,Street lighting improvement in Thrissur
+P0100,P0132,Street Lighting,100.0,Installation of LED street lights at Mysuru,Installation of LED street lights at Mysuru
+P0123,P0223,Street Lighting,100.0,Street lighting improvement in Kochi,Street lighting improvement in Kochi
+P0147,P0189,Street Lighting,100.0,Installation of LED street lights at Salem,Installation of LED street lights at Salem
+P0211,P0212,Street Lighting,100.0,Construction of street lighting at Bus Stand Road,Construction of street lighting in Bus Stand Road
+P0216,P0225,Street Lighting,100.0,Installation of LED street lights at Chennai,Installation of LED street lights at Chennai

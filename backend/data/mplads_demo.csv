@@ -1,0 +1,16 @@
+project_id,mp_name,state,district,category,work_description,estimated_cost_lakh,sanctioned_amount_lakh,expenditure_lakh,physical_progress_pct,planned_duration_days,elapsed_days,start_date,expected_completion_date,current_status,latitude,longitude,implementing_agency
+P1001,Demo MP 1,State A,District A,Community Hall,Construction of community hall at Ward 4,24.0,25.0,23.5,95,180,170,2026-01-10,2026-07-09,Completed,13.012,80.221,District Agency A
+P1002,Demo MP 1,State A,District A,Road,Construction of internal road at Village North,28.0,30.0,17.0,58,210,190,2026-01-15,2026-08-13,In Progress,13.025,80.235,District Agency A
+P1003,Demo MP 1,State A,District A,School Building,Construction of additional classrooms at Government School,22.0,22.0,20.5,88,200,185,2026-02-01,2026-08-20,In Progress,13.041,80.248,District Agency B
+P1004,Demo MP 2,State A,District B,Community Hall,Construction of community hall in Ward 12,26.0,27.0,43.5,42,240,420,2025-07-01,2026-02-26,Delayed,13.112,80.301,District Agency C
+P1005,Demo MP 2,State A,District B,Road,Construction of village road near Primary Health Centre,31.0,32.0,29.0,91,210,200,2026-01-05,2026-08-03,In Progress,13.124,80.312,District Agency C
+P1006,Demo MP 2,State A,District B,Drinking Water,Installation of drinking water pipeline for Village East,18.0,19.0,18.2,96,150,145,2026-02-10,2026-07-10,Completed,13.137,80.326,District Agency C
+P1007,Demo MP 3,State B,District C,Community Hall,Community hall construction at Ward No 12,25.0,26.0,38.0,35,240,390,2025-08-01,2026-03-29,Delayed,13.113,80.303,District Agency D
+P1008,Demo MP 3,State B,District C,School Building,Construction of two classrooms at Government High School,21.0,21.5,20.0,90,180,175,2026-01-20,2026-07-19,In Progress,13.205,80.410,District Agency D
+P1009,Demo MP 3,State B,District C,Road,Construction of approach road to agricultural market,29.0,30.0,31.5,72,210,250,2026-01-18,2026-08-16,In Progress,13.217,80.423,District Agency D
+P1010,Demo MP 4,State B,District D,Health Facility,Upgradation of primary health sub-centre,34.0,35.0,33.0,87,240,230,2026-01-03,2026-08-31,In Progress,13.301,80.501,District Agency E
+P1011,Demo MP 4,State B,District D,Community Hall,Construction of multipurpose community hall at Ward 12,24.0,25.0,24.2,89,180,175,2026-01-08,2026-07-07,In Progress,13.319,80.517,District Agency E
+P1012,Demo MP 4,State B,District D,Road,Construction of internal village road,27.0,28.0,26.5,92,180,178,2026-01-12,2026-07-11,In Progress,13.335,80.529,District Agency E
+P1013,Demo MP 5,State C,District E,Community Hall,Construction of community hall at Ward 12 near market,25.0,26.0,41.0,38,210,400,2025-07-20,2026-02-15,Delayed,13.412,80.611,District Agency F
+P1014,Demo MP 5,State C,District E,Drinking Water,Drinking water pipeline extension to rural settlement,17.0,18.0,16.9,94,150,148,2026-02-05,2026-07-05,In Progress,13.429,80.624,District Agency F
+P1015,Demo MP 5,State C,District E,School Building,Government school classroom block extension,23.0,24.0,22.0,86,210,205,2026-01-25,2026-08-23,In Progress,13.447,80.638,District Agency F
