@@ -18,7 +18,7 @@ function App() {
   const investigationRef = useRef(null);
 
   // =========================================================
-  // DASHBOARD SUMMARY
+  // FETCH DASHBOARD SUMMARY
   // =========================================================
 
   useEffect(() => {
@@ -44,7 +44,7 @@ function App() {
   }, []);
 
   // =========================================================
-  // HIGH-RISK PROJECTS
+  // FETCH HIGH-RISK PROJECTS
   // =========================================================
 
   useEffect(() => {
@@ -56,10 +56,7 @@ function App() {
 
         const data = response.data;
 
-        console.log(
-          "High-risk projects:",
-          data
-        );
+        console.log("High-risk projects:", data);
 
         if (Array.isArray(data)) {
           setHighRiskProjects(data);
@@ -68,9 +65,7 @@ function App() {
         } else if (
           Array.isArray(data.high_risk_projects)
         ) {
-          setHighRiskProjects(
-            data.high_risk_projects
-          );
+          setHighRiskProjects(data.high_risk_projects);
         } else {
           setHighRiskProjects([]);
         }
@@ -88,7 +83,7 @@ function App() {
   }, []);
 
   // =========================================================
-  // INDIVIDUAL PROJECT
+  // FETCH INDIVIDUAL PROJECT
   // =========================================================
 
   const openProject = async (projectId) => {
@@ -100,11 +95,6 @@ function App() {
         `${API_URL}/projects/${projectId}`
       );
 
-      console.log(
-        "Project details:",
-        response.data
-      );
-
       setSelectedProject(response.data);
 
       setTimeout(() => {
@@ -112,8 +102,7 @@ function App() {
           behavior: "smooth",
           block: "start",
         });
-      }, 200);
-
+      }, 180);
     } catch (err) {
       console.error(
         "Project details error:",
@@ -139,10 +128,12 @@ function App() {
     "Unknown";
 
   const getRiskScore = (project) =>
-    project?.risk_score ??
-    project?.score ??
-    project?.Risk_Score ??
-    0;
+    Number(
+      project?.risk_score ??
+        project?.score ??
+        project?.Risk_Score ??
+        0
+    );
 
   const getRiskLevel = (project) =>
     project?.risk_level ??
@@ -189,8 +180,6 @@ function App() {
       ];
     }
 
-    // Backend currently returns risk_reasons
-    // as one string separated by "|".
     if (
       typeof project.risk_reasons === "string"
     ) {
@@ -218,18 +207,14 @@ function App() {
       project.cost_risk === "High" ||
       project.cost_anomaly === true
     ) {
-      reasons.push(
-        "Potential cost anomaly"
-      );
+      reasons.push("Potential cost anomaly");
     }
 
     if (
       project.delay_risk === "High" ||
       project.delay_anomaly === true
     ) {
-      reasons.push(
-        "Potential execution delay"
-      );
+      reasons.push("Potential execution delay");
     }
 
     if (
@@ -282,8 +267,21 @@ function App() {
     return `${number.toFixed(2)}%`;
   };
 
+  const getProgressWidth = (value) => {
+    const number = Number(value);
+
+    if (Number.isNaN(number)) {
+      return 0;
+    }
+
+    return Math.max(
+      0,
+      Math.min(100, number)
+    );
+  };
+
   // =========================================================
-  // UI
+  // RENDER
   // =========================================================
 
   return (
@@ -293,23 +291,44 @@ function App() {
           HEADER
       =================================================== */}
 
-      <header className="header">
+      <header className="topbar">
 
         <div className="brand">
-          <h1>LADS AI</h1>
-          <p>MPLADS Risk Intelligence</p>
+
+          <div className="brand-mark">
+            <span>L</span>
+            <span>A</span>
+          </div>
+
+          <div>
+            <h1>LADS AI</h1>
+
+            <p>
+              MPLADS Risk Intelligence Platform
+            </p>
+          </div>
+
         </div>
 
-        <div className="status">
-          <span className="status-dot"></span>
-          API Connected
+        <div className="topbar-right">
+
+          <div className="system-status">
+            <span className="status-dot"></span>
+
+            <div>
+              <strong>
+                System Online
+              </strong>
+
+              <small>
+                API Connected
+              </small>
+            </div>
+          </div>
+
         </div>
 
       </header>
-
-      {/* ===================================================
-          MAIN DASHBOARD
-      =================================================== */}
 
       <main className="dashboard">
 
@@ -319,35 +338,71 @@ function App() {
 
         <section className="hero">
 
-          <p className="eyebrow">
-            AI-POWERED PROJECT MONITORING
-          </p>
+          <div className="hero-content">
 
-          <h2>
-            Identify risks.
-            <br />
-            Prioritize action.
-          </h2>
+            <div className="hero-badge">
+              AI-POWERED MONITORING
+            </div>
 
-          <p className="hero-text">
-            LADS AI analyzes MPLADS project data to
-            identify potential cost, delay, spending,
-            and duplication anomalies.
-          </p>
+            <h2>
+              Identify risks.
+              <br />
+              <span>
+                Prioritize action.
+              </span>
+            </h2>
+
+            <p>
+              LADS AI analyzes MPLADS project,
+              expenditure and implementation data
+              to identify potential anomalies and
+              prioritize cases for human review.
+            </p>
+
+            <div className="hero-flow">
+
+              <span>DATA</span>
+              <b>→</b>
+              <span>AI ANALYSIS</span>
+              <b>→</b>
+              <span>RISK SCORE</span>
+              <b>→</b>
+              <span>HUMAN REVIEW</span>
+
+            </div>
+
+          </div>
+
+          <div className="hero-orbit">
+
+            <div className="orbit-ring ring-one"></div>
+            <div className="orbit-ring ring-two"></div>
+
+            <div className="orbit-core">
+              <span>AI</span>
+              <small>RISK<br />ENGINE</small>
+            </div>
+
+          </div>
 
         </section>
 
         {/* =================================================
-            STATS
+            STATISTICS
         ================================================= */}
 
         <section className="stats">
 
-          <div className="stat-card">
+          <div className="stat-card total">
 
-            <span>
-              Total Projects
-            </span>
+            <div className="stat-top">
+              <span>01</span>
+              <small>PROJECTS</small>
+            </div>
+
+            <p>
+              Projects Monitored
+            </p>
 
             <strong>
               {loading
@@ -355,13 +410,22 @@ function App() {
                 : summary?.total_projects ?? "-"}
             </strong>
 
+            <div className="stat-footer">
+              Demo dataset
+            </div>
+
           </div>
 
           <div className="stat-card high">
 
-            <span>
+            <div className="stat-top">
+              <span>02</span>
+              <small>PRIORITY</small>
+            </div>
+
+            <p>
               High Risk
-            </span>
+            </p>
 
             <strong>
               {loading
@@ -369,13 +433,22 @@ function App() {
                 : summary?.high_risk ?? "-"}
             </strong>
 
+            <div className="stat-footer">
+              Requires review
+            </div>
+
           </div>
 
           <div className="stat-card medium">
 
-            <span>
+            <div className="stat-top">
+              <span>03</span>
+              <small>ATTENTION</small>
+            </div>
+
+            <p>
               Medium Risk
-            </span>
+            </p>
 
             <strong>
               {loading
@@ -383,19 +456,32 @@ function App() {
                 : summary?.medium_risk ?? "-"}
             </strong>
 
+            <div className="stat-footer">
+              Monitor closely
+            </div>
+
           </div>
 
           <div className="stat-card low">
 
-            <span>
+            <div className="stat-top">
+              <span>04</span>
+              <small>ROUTINE</small>
+            </div>
+
+            <p>
               Low Risk
-            </span>
+            </p>
 
             <strong>
               {loading
                 ? "..."
                 : summary?.low_risk ?? "-"}
             </strong>
+
+            <div className="stat-footer">
+              Routine monitoring
+            </div>
 
           </div>
 
@@ -407,7 +493,8 @@ function App() {
 
         {error && (
           <div className="error-box">
-            {error}
+            <strong>Connection issue</strong>
+            <span>{error}</span>
           </div>
         )}
 
@@ -415,38 +502,144 @@ function App() {
             PIPELINE
         ================================================= */}
 
-        <section className="info-card">
+        <section className="pipeline-card">
 
-          <div className="info-heading">
+          <div className="section-title-row">
 
-            <p className="section-eyebrow">
-              RISK INTELLIGENCE
-            </p>
+            <div>
 
-            <h3>
-              Risk Intelligence Pipeline
-            </h3>
+              <div className="mini-label">
+                HOW IT WORKS
+              </div>
 
-            <p>
-              MPLADS Data → AI Analysis → Risk Score →
-              Explainable Alert → Human Review
-            </p>
+              <h3>
+                Risk Intelligence Pipeline
+              </h3>
+
+            </div>
+
+            <div className="pipeline-tag">
+              MULTI-SIGNAL ANALYSIS
+            </div>
 
           </div>
 
-          <div className="pipeline">
+          <div className="pipeline-track">
 
-            <span>Cost</span>
-            <span>Delay</span>
-            <span>Duplicate</span>
-            <span>Spending</span>
+            <div className="pipeline-step active">
+
+              <div className="pipeline-icon">
+                01
+              </div>
+
+              <strong>
+                MPLADS Data
+              </strong>
+
+              <span>
+                Project records
+              </span>
+
+            </div>
+
+            <div className="pipeline-line"></div>
+
+            <div className="pipeline-step">
+
+              <div className="pipeline-icon">
+                02
+              </div>
+
+              <strong>
+                AI Analysis
+              </strong>
+
+              <span>
+                Detect signals
+              </span>
+
+            </div>
+
+            <div className="pipeline-line"></div>
+
+            <div className="pipeline-step">
+
+              <div className="pipeline-icon">
+                03
+              </div>
+
+              <strong>
+                Risk Score
+              </strong>
+
+              <span>
+                Prioritize cases
+              </span>
+
+            </div>
+
+            <div className="pipeline-line"></div>
+
+            <div className="pipeline-step">
+
+              <div className="pipeline-icon">
+                04
+              </div>
+
+              <strong>
+                Explain
+              </strong>
+
+              <span>
+                Show reasons
+              </span>
+
+            </div>
+
+            <div className="pipeline-line"></div>
+
+            <div className="pipeline-step final">
+
+              <div className="pipeline-icon">
+                05
+              </div>
+
+              <strong>
+                Human Review
+              </strong>
+
+              <span>
+                Verify & act
+              </span>
+
+            </div>
+
+          </div>
+
+          <div className="signal-row">
+
+            <span className="signal cost">
+              COST
+            </span>
+
+            <span className="signal delay">
+              DELAY
+            </span>
+
+            <span className="signal duplicate">
+              DUPLICATE
+            </span>
+
+            <span className="signal spending">
+              SPENDING
+            </span>
 
           </div>
 
         </section>
 
         {/* =================================================
-            HIGH-RISK PROJECTS
+            HIGH-RISK QUEUE
         ================================================= */}
 
         <section className="projects-card">
@@ -455,17 +648,17 @@ function App() {
 
             <div>
 
-              <p className="section-eyebrow">
+              <div className="mini-label">
                 PRIORITY QUEUE
-              </p>
+              </div>
 
               <h3>
                 High-Risk Projects
               </h3>
 
               <p>
-                Projects prioritized for human review
-                based on detected risk signals.
+                Projects prioritized for human
+                review based on detected risk signals.
               </p>
 
             </div>
@@ -478,7 +671,7 @@ function App() {
 
           {projectsLoading && (
             <div className="loading-box">
-              Loading high-risk projects...
+              Loading priority queue...
             </div>
           )}
 
@@ -501,9 +694,7 @@ function App() {
                       getProjectId(project);
 
                     const score =
-                      Number(
-                        getRiskScore(project)
-                      );
+                      getRiskScore(project);
 
                     const level =
                       getRiskLevel(project);
@@ -524,6 +715,7 @@ function App() {
                             event.key === "Enter" ||
                             event.key === " "
                           ) {
+
                             event.preventDefault();
 
                             openProject(
@@ -533,6 +725,12 @@ function App() {
 
                         }}
                       >
+
+                        <div className="project-number">
+                          {String(
+                            index + 1
+                          ).padStart(2, "0")}
+                        </div>
 
                         <div className="project-main">
 
@@ -547,6 +745,7 @@ function App() {
                           </div>
 
                           <div className="project-location">
+                            <span>●</span>
                             {getLocation(
                               project
                             )}
@@ -563,7 +762,7 @@ function App() {
                             </strong>
 
                             <span>
-                              / 100
+                              /100
                             </span>
 
                           </div>
@@ -591,7 +790,8 @@ function App() {
 
                           }}
                         >
-                          Investigate →
+                          Investigate
+                          <span>→</span>
                         </button>
 
                       </div>
@@ -606,7 +806,7 @@ function App() {
         </section>
 
         {/* =================================================
-            PROJECT INVESTIGATION
+            INVESTIGATION
         ================================================= */}
 
         {selectedProject && (
@@ -616,18 +816,15 @@ function App() {
             className="investigation-card"
           >
 
-            {/* Header */}
-
             <div className="investigation-header">
 
               <div>
 
-                <p className="section-eyebrow">
+                <div className="mini-label">
                   PROJECT INVESTIGATION
-                </p>
+                </div>
 
                 <h3>
-                  Project{" "}
                   {getProjectId(
                     selectedProject
                   )}
@@ -647,86 +844,90 @@ function App() {
                   setSelectedProject(null)
                 }
               >
-                Close
+                Close ×
               </button>
 
             </div>
 
             {projectLoading && (
+
               <div className="loading-box">
                 Loading project intelligence...
               </div>
+
             )}
 
             {!projectLoading && (
 
               <>
 
-                {/* =========================================
-                    TOP RISK SUMMARY
-                ========================================= */}
+                {/* =======================================
+                    INVESTIGATION HERO
+                ======================================= */}
 
-                <div className="investigation-summary">
+                <div className="investigation-hero">
 
-                  <div className="big-risk-score">
+                  <div className="investigation-project">
 
                     <span>
-                      RISK SCORE
+                      HIGH-PRIORITY CASE
                     </span>
 
-                    <div>
+                    <h4>
+                      {getWorkDescription(
+                        selectedProject
+                      )}
+                    </h4>
 
-                      <strong>
-                        {formatNumber(
-                          getRiskScore(
-                            selectedProject
-                          ),
-                          2
-                        )}
-                      </strong>
-
-                      <small>
-                        / 100
-                      </small>
-
-                    </div>
+                    <p>
+                      {getLocation(
+                        selectedProject
+                      )}
+                    </p>
 
                   </div>
 
-                  <div className="risk-status-box">
+                  <div className="overall-risk">
 
-                    <span>
-                      RISK LEVEL
-                    </span>
+                    <small>
+                      OVERALL RISK
+                    </small>
 
                     <strong>
-                      {getRiskLevel(
-                        selectedProject
+                      {formatNumber(
+                        getRiskScore(
+                          selectedProject
+                        )
                       )}
                     </strong>
 
-                    <p>
-                      Potential anomaly requiring
-                      human review.
-                    </p>
+                    <span>
+                      / 100
+                    </span>
+
+                    <div className="overall-risk-label">
+                      {getRiskLevel(
+                        selectedProject
+                      )}
+                    </div>
 
                   </div>
 
                 </div>
 
-                {/* =========================================
+                {/* =======================================
                     RISK BREAKDOWN
-                ========================================= */}
+                ======================================= */}
 
                 <div className="investigation-section">
 
-                  <div className="subsection-header">
+                  <div className="subsection-heading">
 
                     <div>
 
-                      <p className="section-eyebrow">
+                      <div className="mini-label">
                         AI SIGNALS
-                      </p>
+                      </div>
 
                       <h4>
                         Risk Intelligence Breakdown
@@ -740,15 +941,26 @@ function App() {
 
                     <div className="risk-component cost-component">
 
-                      <span>
+                      <div className="component-heading">
+                        <span className="component-dot"></span>
                         Cost Risk
-                      </span>
+                      </div>
 
                       <strong>
                         {formatNumber(
                           selectedProject.cost_score
                         )}
                       </strong>
+
+                      <div className="risk-bar">
+                        <div
+                          style={{
+                            width: `${getProgressWidth(
+                              selectedProject.cost_score
+                            )}%`,
+                          }}
+                        ></div>
+                      </div>
 
                       <small>
                         Cost anomaly signal
@@ -758,15 +970,26 @@ function App() {
 
                     <div className="risk-component delay-component">
 
-                      <span>
+                      <div className="component-heading">
+                        <span className="component-dot"></span>
                         Delay Risk
-                      </span>
+                      </div>
 
                       <strong>
                         {formatNumber(
                           selectedProject.delay_score
                         )}
                       </strong>
+
+                      <div className="risk-bar">
+                        <div
+                          style={{
+                            width: `${getProgressWidth(
+                              selectedProject.delay_score
+                            )}%`,
+                          }}
+                        ></div>
+                      </div>
 
                       <small>
                         Execution timeline signal
@@ -776,15 +999,26 @@ function App() {
 
                     <div className="risk-component duplicate-component">
 
-                      <span>
+                      <div className="component-heading">
+                        <span className="component-dot"></span>
                         Duplicate Risk
-                      </span>
+                      </div>
 
                       <strong>
                         {formatNumber(
                           selectedProject.duplicate_score
                         )}
                       </strong>
+
+                      <div className="risk-bar">
+                        <div
+                          style={{
+                            width: `${getProgressWidth(
+                              selectedProject.duplicate_score
+                            )}%`,
+                          }}
+                        ></div>
+                      </div>
 
                       <small>
                         Text similarity signal
@@ -794,15 +1028,26 @@ function App() {
 
                     <div className="risk-component spending-component">
 
-                      <span>
+                      <div className="component-heading">
+                        <span className="component-dot"></span>
                         Spending Risk
-                      </span>
+                      </div>
 
                       <strong>
                         {formatNumber(
                           selectedProject.spending_score
                         )}
                       </strong>
+
+                      <div className="risk-bar">
+                        <div
+                          style={{
+                            width: `${getProgressWidth(
+                              selectedProject.spending_score
+                            )}%`,
+                          }}
+                        ></div>
+                      </div>
 
                       <small>
                         Spending pattern signal
@@ -814,19 +1059,19 @@ function App() {
 
                 </div>
 
-                {/* =========================================
+                {/* =======================================
                     FINANCIAL SNAPSHOT
-                ========================================= */}
+                ======================================= */}
 
                 <div className="investigation-section">
 
-                  <div className="subsection-header">
+                  <div className="subsection-heading">
 
                     <div>
 
-                      <p className="section-eyebrow">
+                      <div className="mini-label">
                         FINANCIAL ANALYSIS
-                      </p>
+                      </div>
 
                       <h4>
                         Financial Snapshot
@@ -849,7 +1094,7 @@ function App() {
                         {formatNumber(
                           selectedProject
                             .estimated_cost_lakh
-                        )} Lakh
+                        )} L
                       </strong>
 
                     </div>
@@ -865,7 +1110,7 @@ function App() {
                         {formatNumber(
                           selectedProject
                             .sanctioned_amount_lakh
-                        )} Lakh
+                        )} L
                       </strong>
 
                     </div>
@@ -881,7 +1126,7 @@ function App() {
                         {formatNumber(
                           selectedProject
                             .expenditure_lakh
-                        )} Lakh
+                        )} L
                       </strong>
 
                     </div>
@@ -889,10 +1134,10 @@ function App() {
                     <div className="detail-item">
 
                       <span>
-                        Sanction Overrun
+                        Cost Overrun
                       </span>
 
-                      <strong>
+                      <strong className="danger-value">
                         {formatPercent(
                           selectedProject
                             .sanction_overrun_pct
@@ -905,19 +1150,19 @@ function App() {
 
                 </div>
 
-                {/* =========================================
+                {/* =======================================
                     EXECUTION
-                ========================================= */}
+                ======================================= */}
 
                 <div className="investigation-section">
 
-                  <div className="subsection-header">
+                  <div className="subsection-heading">
 
                     <div>
 
-                      <p className="section-eyebrow">
+                      <div className="mini-label">
                         EXECUTION ANALYSIS
-                      </p>
+                      </div>
 
                       <h4>
                         Project Progress
@@ -947,10 +1192,10 @@ function App() {
                     <div className="detail-item">
 
                       <span>
-                        Status
+                        Current Status
                       </span>
 
-                      <strong>
+                      <strong className="danger-value">
                         {selectedProject
                           .current_status ?? "-"}
                       </strong>
@@ -964,7 +1209,8 @@ function App() {
                       </span>
 
                       <strong>
-                        {selectedProject.delay_days ?? "-"} days
+                        {selectedProject.delay_days ??
+                          "-"} days
                       </strong>
 
                     </div>
@@ -975,7 +1221,7 @@ function App() {
                         Delay vs Plan
                       </span>
 
-                      <strong>
+                      <strong className="danger-value">
                         {formatPercent(
                           selectedProject.delay_pct
                         )}
@@ -987,19 +1233,19 @@ function App() {
 
                 </div>
 
-                {/* =========================================
-                    DUPLICATE ANALYSIS
-                ========================================= */}
+                {/* =======================================
+                    TEXT ANALYSIS
+                ======================================= */}
 
                 <div className="investigation-section">
 
-                  <div className="subsection-header">
+                  <div className="subsection-heading">
 
                     <div>
 
-                      <p className="section-eyebrow">
+                      <div className="mini-label">
                         TEXT ANALYSIS
-                      </p>
+                      </div>
 
                       <h4>
                         Similarity Check
@@ -1009,9 +1255,9 @@ function App() {
 
                   </div>
 
-                  <div className="detail-grid">
+                  <div className="similarity-box">
 
-                    <div className="detail-item">
+                    <div className="similarity-stat">
 
                       <span>
                         Maximum Similarity
@@ -1026,7 +1272,7 @@ function App() {
 
                     </div>
 
-                    <div className="detail-item">
+                    <div className="similarity-stat">
 
                       <span>
                         Similar Projects
@@ -1034,7 +1280,23 @@ function App() {
 
                       <strong>
                         {selectedProject
-                          .similar_project_count ?? "-"}
+                          .similar_project_count ??
+                          "-"}
+                      </strong>
+
+                    </div>
+
+                    <div className="similarity-stat">
+
+                      <span>
+                        Similarity Signal
+                      </span>
+
+                      <strong>
+                        {formatNumber(
+                          selectedProject
+                            .duplicate_score
+                        )}
                       </strong>
 
                     </div>
@@ -1043,127 +1305,23 @@ function App() {
 
                 </div>
 
-                {/* =========================================
-                    OTHER PROJECT INFORMATION
-                ========================================= */}
-
-                <div className="investigation-section">
-
-                  <div className="subsection-header">
-
-                    <div>
-
-                      <p className="section-eyebrow">
-                        PROJECT CONTEXT
-                      </p>
-
-                      <h4>
-                        Project Information
-                      </h4>
-
-                    </div>
-
-                  </div>
-
-                  <div className="detail-grid">
-
-                    <div className="detail-item">
-
-                      <span>
-                        Project ID
-                      </span>
-
-                      <strong>
-                        {getProjectId(
-                          selectedProject
-                        )}
-                      </strong>
-
-                    </div>
-
-                    <div className="detail-item">
-
-                      <span>
-                        MP Name
-                      </span>
-
-                      <strong>
-                        {selectedProject
-                          .mp_name ?? "-"}
-                      </strong>
-
-                    </div>
-
-                    <div className="detail-item">
-
-                      <span>
-                        Category
-                      </span>
-
-                      <strong>
-                        {selectedProject
-                          .category ?? "-"}
-                      </strong>
-
-                    </div>
-
-                    <div className="detail-item">
-
-                      <span>
-                        District
-                      </span>
-
-                      <strong>
-                        {selectedProject
-                          .district ?? "-"}
-                      </strong>
-
-                    </div>
-
-                    <div className="detail-item wide">
-
-                      <span>
-                        Work Description
-                      </span>
-
-                      <strong>
-                        {getWorkDescription(
-                          selectedProject
-                        )}
-                      </strong>
-
-                    </div>
-
-                    <div className="detail-item wide">
-
-                      <span>
-                        Implementing Agency
-                      </span>
-
-                      <strong>
-                        {selectedProject
-                          .implementing_agency ?? "-"}
-                      </strong>
-
-                    </div>
-
-                  </div>
-
-                </div>
-
-                {/* =========================================
+                {/* =======================================
                     WHY FLAGGED
-                ========================================= */}
+                ======================================= */}
 
                 <div className="alert-section">
 
-                  <div className="alert-title">
+                  <div className="alert-header">
 
-                    <span className="alert-icon">
+                    <div className="alert-symbol">
                       !
-                    </span>
+                    </div>
 
                     <div>
+
+                      <div className="mini-label">
+                        EXPLAINABLE ALERT
+                      </div>
 
                       <h4>
                         Why was this project flagged?
@@ -1191,7 +1349,9 @@ function App() {
                         >
 
                           <span>
-                            •
+                            {String(
+                              index + 1
+                            ).padStart(2, "0")}
                           </span>
 
                           <p>
@@ -1207,17 +1367,21 @@ function App() {
 
                 </div>
 
-                {/* =========================================
-                    ACTION
-                ========================================= */}
+                {/* =======================================
+                    HUMAN REVIEW
+                ======================================= */}
 
                 <div className="review-banner">
 
-                  <div>
+                  <div className="review-icon">
+                    ✓
+                  </div>
 
-                    <span>
+                  <div className="review-content">
+
+                    <div className="mini-label">
                       RECOMMENDED ACTION
-                    </span>
+                    </div>
 
                     <h4>
                       Human Review Required
@@ -1245,6 +1409,23 @@ function App() {
           </section>
 
         )}
+
+        {/* =================================================
+            FOOTER
+        ================================================= */}
+
+        <footer className="footer">
+
+          <span>
+            LADS AI · MPLADS Risk Intelligence
+          </span>
+
+          <span>
+            AI-assisted monitoring ·
+            Human decision remains final
+          </span>
+
+        </footer>
 
       </main>
 
