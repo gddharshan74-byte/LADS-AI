@@ -3,6 +3,6 @@ uvicorn==0.34.0
 pandas
 scikit-learn
 SQLAlchemy
-psycopg2-binary
+psycopg[binary]
 python-dotenv
 openpyxl
