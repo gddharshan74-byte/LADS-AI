@@ -1,3 +1,8 @@
-pandas>=2.2,<3.0
-numpy>=2.0,<3.0
-scikit-learn>=1.5,<2.0
+fastapi==0.115.12
+uvicorn==0.34.0
+pandas
+scikit-learn
+SQLAlchemy
+psycopg2-binary
+python-dotenv
+openpyxl
