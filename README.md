@@ -1,4 +1,4 @@
-# LADS AI
+# PRISM AI
 AI-Powered Risk Intelligence for MPLADS
 
 Prototype v0.1 — project structure and demo dataset.

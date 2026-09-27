@@ -1,301 +1,301 @@
-project_id,mp_name,state,district,category,work_description,estimated_cost_lakh,sanctioned_amount_lakh,expenditure_lakh,physical_progress_pct,planned_duration_days,elapsed_days,start_date,expected_completion_date,current_status,latitude,longitude,implementing_agency,category_avg_expenditure_lakh,category_std_expenditure_lakh,spending_zscore,spending_anomaly
-P1001,Demo MP 1,State A,District A,Community Hall,Construction of community hall at Ward 4,24.0,25.0,23.5,95.0,180,170,2026-01-10,2026-07-09,Completed,13.012,80.221,District Agency A,22.616799999999998,8.88503504026105,0.09940309700501226,False
-P1002,Demo MP 1,State A,District A,Road,Construction of internal road at Village North,28.0,30.0,17.0,58.0,210,190,2026-01-15,2026-08-13,In Progress,13.025,80.235,District Agency A,25.5009375,8.495924396486027,-1.0005900598075055,False
-P1003,Demo MP 1,State A,District A,School Building,Construction of additional classrooms at Government School,22.0,22.0,20.5,88.0,200,185,2026-02-01,2026-08-20,In Progress,13.041,80.248,District Agency B,19.797241379310346,7.108141658163006,0.09886671573048972,False
-P1004,Demo MP 2,State A,District B,Community Hall,Construction of community hall in Ward 12,26.0,27.0,43.5,42.0,240,420,2025-07-01,2026-02-26,Delayed,13.112,80.301,District Agency C,22.616799999999998,8.88503504026105,2.350379025560538,True
-P1005,Demo MP 2,State A,District B,Road,Construction of village road near Primary Health Centre,31.0,32.0,29.0,91.0,210,200,2026-01-05,2026-08-03,In Progress,13.124,80.312,District Agency C,25.5009375,8.495924396486027,0.4118518876471214,False
-P1006,Demo MP 2,State A,District B,Drinking Water,Installation of drinking water pipeline for Village East,18.0,19.0,18.2,96.0,150,145,2026-02-10,2026-07-10,Completed,13.137,80.326,District Agency C,16.293666666666667,4.728764862671517,0.40313557317720994,False
-P1007,Demo MP 3,State B,District C,Community Hall,Community hall construction at Ward No 12,25.0,26.0,38.0,35.0,240,390,2025-08-01,2026-03-29,Delayed,13.113,80.303,District Agency D,22.616799999999998,8.88503504026105,1.7313606452077686,False
-P1008,Demo MP 3,State B,District C,School Building,Construction of two classrooms at Government High School,21.0,21.5,20.0,90.0,180,175,2026-01-20,2026-07-19,In Progress,13.205,80.41,District Agency D,19.797241379310346,7.108141658163006,0.028524842418806498,False
-P1009,Demo MP 3,State B,District C,Road,Construction of approach road to agricultural market,29.0,30.0,31.5,72.0,210,250,2026-01-18,2026-08-16,In Progress,13.217,80.423,District Agency D,25.5009375,8.495924396486027,0.7061106267001687,False
-P1010,Demo MP 4,State B,District D,Health Facility,Upgradation of primary health sub-centre,34.0,35.0,33.0,87.0,240,230,2026-01-03,2026-08-31,In Progress,13.301,80.501,District Agency E,25.37185185185185,9.247370119718044,0.8248991928940695,False
-P1011,Demo MP 4,State B,District D,Community Hall,Construction of multipurpose community hall at Ward 12,24.0,25.0,24.2,89.0,180,175,2026-01-08,2026-07-07,In Progress,13.319,80.517,District Agency E,22.616799999999998,8.88503504026105,0.17818725450445558,False
-P1012,Demo MP 4,State B,District D,Road,Construction of internal village road,27.0,28.0,26.5,92.0,180,178,2026-01-12,2026-07-11,In Progress,13.335,80.529,District Agency E,25.5009375,8.495924396486027,0.11759314859407412,False
-P1013,Demo MP 5,State C,District E,Community Hall,Construction of community hall at Ward 12 near market,25.0,26.0,41.0,38.0,210,400,2025-07-20,2026-02-15,Delayed,13.412,80.611,District Agency F,22.616799999999998,8.88503504026105,2.069007034491097,True
-P1014,Demo MP 5,State C,District E,Drinking Water,Drinking water pipeline extension to rural settlement,17.0,18.0,16.9,94.0,150,148,2026-02-05,2026-07-05,In Progress,13.429,80.624,District Agency F,16.293666666666667,4.728764862671517,0.12822234789462203,False
-P1015,Demo MP 5,State C,District E,School Building,Government school classroom block extension,23.0,24.0,22.0,86.0,210,205,2026-01-25,2026-08-23,In Progress,13.447,80.638,District Agency F,19.797241379310346,7.108141658163006,0.30989233566553936,False
-P0016,Demo MP 8,Tamil Nadu,Coimbatore District,Drinking Water,Water supply improvement work at Coimbatore,14.55,14.4,8.81,67.2,183,178,2025-01-08,2025-07-10,In Progress,10.9793,76.9608,District Agency A,16.293666666666667,4.728764862671517,-1.5825838002100967,False
-P0017,Demo MP 10,Tamil Nadu,Tiruchirappalli District,Road,Improvement of road connecting Tiruchirappalli,32.04,32.14,28.02,95.1,198,130,2026-04-19,2026-11-03,Completed,10.8032,78.7846,District Agency A,25.5009375,8.495924396486027,0.2965024619383268,False
-P0018,Demo MP 3,Tamil Nadu,Coimbatore District,Street Lighting,Street lighting improvement in Coimbatore,12.33,12.76,22.5,78.4,215,222,2026-03-31,2026-11-01,In Progress,11.0018,76.8805,District Agency B,14.468,6.960790783620301,1.1538918852295348,False
-P0019,Demo MP 8,Tamil Nadu,Coimbatore District,Library,Library building improvement at Coimbatore,20.91,20.77,16.68,63.0,206,120,2024-08-09,2025-03-03,In Progress,11.0334,76.9218,District Agency B,19.273846153846154,8.047959282661948,-0.3222986179159958,False
-P0020,Demo MP 9,Madhya Pradesh,Bhopal District,Road,Construction of village road near Bhopal,26.46,28.25,51.23,94.8,236,217,2025-07-29,2026-03-22,In Progress,23.3005,77.4687,District Agency B,25.5009375,8.495924396486027,3.0284005953068176,True
-P0021,Demo MP 6,Maharashtra,Nagpur District,Library,Library building improvement at Nagpur,21.28,22.11,22.14,89.5,292,250,2026-05-26,2027-03-14,In Progress,21.0792,79.166,District Agency B,19.273846153846154,8.047959282661948,0.35613423794632265,False
-P0022,Demo MP 1,Odisha,Bhubaneswar District,Road,Construction of village road near Bhubaneswar,30.2,31.09,29.98,92.5,292,179,2025-02-08,2025-11-27,In Progress,20.2631,85.7688,District Agency C,25.5009375,8.495924396486027,0.527201313355916,False
-P0023,Demo MP 10,Tamil Nadu,Erode District,Road,Construction of village road near Erode,25.28,26.28,41.06,99.2,246,163,2024-12-22,2025-08-25,Completed,11.3694,77.778,District Agency A,25.5009375,8.495924396486027,1.8313560448390218,False
-P0024,Demo MP 1,Kerala,Thrissur District,Sports Facility,Development of community sports ground at Thrissur,24.09,25.26,24.99,85.4,211,154,2026-06-20,2027-01-17,In Progress,10.5806,76.2869,District Agency A,22.43259259259259,8.23601032641813,0.3105153230811492,False
-P0025,Demo MP 3,Karnataka,Mysuru District,Sanitation,Improvement of sanitation facilities in Mysuru,15.14,15.95,15.52,60.5,128,126,2024-12-22,2025-04-29,In Progress,12.328,76.7183,District Agency D,12.356363636363636,3.614392586069444,0.8752885272700093,False
-P0026,Demo MP 7,Maharashtra,Nagpur District,Bus Shelter,Improvement of passenger shelter at Nagpur,11.36,11.98,11.83,89.4,223,169,2025-01-20,2025-08-31,In Progress,21.204,79.0314,District Agency C,13.026363636363635,5.457277836548308,-0.21922351622843658,False
-P0027,Demo MP 1,Tamil Nadu,Kanchipuram District,School Building,Construction of additional classrooms at Kanchipuram School,23.05,23.73,18.26,58.7,303,250,2026-02-11,2026-12-11,In Progress,12.8223,79.6743,District Agency D,19.797241379310346,7.108141658163006,-0.21626487670585087,False
-P0028,Demo MP 6,Tamil Nadu,Madurai District,Community Hall,Construction of community hall in Madurai,23.69,24.88,14.04,93.0,140,82,2025-12-27,2026-05-16,In Progress,9.9107,78.059,District Agency B,22.616799999999998,8.88503504026105,-0.9653085172017515,False
-P0029,Demo MP 9,Tamil Nadu,Chennai District,Health Facility,Health facility improvement work at Chennai,30.34,31.48,17.69,76.0,299,283,2024-08-17,2025-06-12,In Progress,13.1129,80.3401,District Agency C,25.37185185185185,9.247370119718044,-0.8307066498259802,False
-P0030,Demo MP 9,Madhya Pradesh,Bhopal District,Street Lighting,Street lighting improvement in Bhopal,14.4,14.74,12.1,78.3,139,139,2025-07-22,2025-12-08,In Progress,23.2849,77.3573,District Agency B,14.468,6.960790783620301,-0.3401912330955601,False
-P0031,Demo MP 7,Tamil Nadu,Thanjavur District,Community Hall,Construction of community hall at Ward 12,35.12,35.62,29.8,64.8,250,216,2024-07-01,2025-03-08,In Progress,10.7175,79.0631,District Agency C,22.616799999999998,8.88503504026105,0.808460514500003,False
-P0032,Demo MP 6,Madhya Pradesh,Bhopal District,Community Hall,Construction of community hall in Ward 12,26.92,28.63,17.55,55.2,154,120,2024-06-16,2024-11-17,In Progress,23.3299,77.4232,District Agency B,22.616799999999998,8.88503504026105,-0.5702622417402565,False
-P0033,Demo MP 9,Uttar Pradesh,Lucknow District,Sports Facility,Development of community sports ground at Lucknow,29.0,30.59,27.92,66.3,140,143,2024-08-08,2024-12-26,In Progress,26.8025,80.9379,District Agency C,22.43259259259259,8.23601032641813,0.6662700980116307,False
-P0034,Demo MP 7,Tamil Nadu,Thanjavur District,Drinking Water,Drinking water pipeline and supply system at Thanjavur,15.94,15.33,9.6,81.7,152,108,2024-10-26,2025-03-27,In Progress,10.8551,79.1994,District Agency B,16.293666666666667,4.728764862671517,-1.415521147922986,False
-P0035,Demo MP 3,Kerala,Kochi District,Bus Shelter,Construction of public bus shelter at Kochi,13.17,13.37,7.52,93.0,120,93,2024-10-23,2025-02-20,In Progress,9.8732,76.2544,District Agency B,13.026363636363635,5.457277836548308,-1.0089945575954722,False
-P0036,Demo MP 3,Rajasthan,Jaipur District,Community Hall,Construction of community hall in Jaipur,26.02,27.18,37.52,60.4,314,218,2025-12-31,2026-11-10,In Progress,26.9876,75.862,District Agency A,22.616799999999998,8.88503504026105,1.6773372229224361,False
-P0037,Demo MP 2,Karnataka,Mysuru District,Sports Facility,Development of playground near Mysuru,23.39,23.35,13.59,63.9,137,120,2025-09-26,2026-02-10,In Progress,12.2634,76.6015,District Agency A,22.43259259259259,8.23601032641813,-1.073650012825842,False
-P0038,Demo MP 8,Tamil Nadu,Tiruchirappalli District,Health Facility,Construction of primary health sub-centre at Tiruchirappalli,28.62,30.27,19.17,66.8,191,107,2024-08-31,2025-03-10,In Progress,10.7643,78.6538,District Agency C,25.37185185185185,9.247370119718044,-0.6706611470679349,False
-P0039,Demo MP 8,Maharashtra,Nagpur District,Library,Library building improvement at Nagpur,19.87,19.56,34.35,65.5,239,147,2026-01-03,2026-08-30,In Progress,21.1924,79.097,District Agency B,19.273846153846154,8.047959282661948,1.8732890310010677,False
-P0040,Demo MP 7,Tamil Nadu,Thanjavur District,Library,Development of reading room at Thanjavur,26.02,27.9,22.03,86.8,123,110,2025-01-30,2025-06-02,In Progress,10.8666,79.1457,District Agency A,19.273846153846154,8.047959282661948,0.34246617674763136,False
-P0041,Demo MP 7,Karnataka,Hubballi District,Bus Shelter,Bus shelter development near Hubballi,14.15,13.6,22.42,57.4,162,298,2026-05-30,2026-11-08,Delayed,15.316,75.0807,District Agency A,13.026363636363635,5.457277836548308,1.7213044021188737,False
-P0042,Demo MP 7,Odisha,Bhubaneswar District,Irrigation,Water conservation and irrigation work at Bhubaneswar,22.11,23.25,13.08,74.2,123,92,2026-07-07,2026-11-07,In Progress,20.315,85.764,District Agency C,17.548571428571428,3.9375565581146446,-1.134858982371301,False
-P0043,Demo MP 8,Tamil Nadu,Kanchipuram District,Road,Improvement of road connecting Kanchipuram,31.61,31.3,41.77,78.9,155,108,2024-01-12,2024-06-15,In Progress,12.8577,79.7405,District Agency C,25.5009375,8.495924396486027,1.9149255267300873,False
-P0044,Demo MP 4,Tamil Nadu,Tiruchirappalli District,Library,Development of reading room at Tiruchirappalli,23.87,24.92,22.2,85.2,224,198,2024-07-16,2025-02-25,In Progress,10.7512,78.7477,District Agency C,19.273846153846154,8.047959282661948,0.3635895440546996,False
-P0045,Demo MP 7,Tamil Nadu,Coimbatore District,Sports Facility,Development of community sports ground at Coimbatore,26.86,26.77,45.87,29.7,191,408,2024-03-31,2024-10-08,Delayed,11.0777,76.9881,District Agency A,22.43259259259259,8.23601032641813,2.8457234120055332,True
-P0046,Demo MP 8,Odisha,Bhubaneswar District,Road,Improvement of road connecting Bhubaneswar,30.7,31.37,27.21,98.1,164,171,2024-01-06,2024-06-18,Completed,20.2731,85.8691,District Agency B,25.5009375,8.495924396486027,0.20116263048513966,False
-P0047,Demo MP 10,Kerala,Kochi District,Health Facility,Construction of primary health sub-centre at Kochi,32.64,34.83,28.64,90.5,126,114,2024-02-09,2024-06-14,In Progress,9.8938,76.2061,District Agency B,25.37185185185185,9.247370119718044,0.35341379287712527,False
-P0048,Demo MP 4,Tamil Nadu,Erode District,Drinking Water,Water supply improvement work at Erode,16.89,17.21,16.63,62.5,183,176,2024-07-28,2025-01-27,In Progress,11.404,77.6438,District Agency A,16.293666666666667,4.728764862671517,0.0711249857205462,False
-P0049,Demo MP 1,Tamil Nadu,Salem District,Road,Construction of internal road at Salem,27.11,28.63,27.63,67.4,162,122,2024-10-29,2025-04-09,In Progress,11.6744,78.2169,District Agency D,25.5009375,8.495924396486027,0.25059809864605137,False
-P0050,Demo MP 10,Karnataka,Mysuru District,Library,Development of reading room at Mysuru,21.17,22.71,19.82,95.8,320,265,2025-06-05,2026-04-21,Completed,12.2487,76.6581,District Agency B,19.273846153846154,8.047959282661948,0.06786240175574047,False
-P0051,Demo MP 4,Tamil Nadu,Tiruchirappalli District,Community Hall,Community hall construction near Tiruchirappalli,26.74,28.38,19.06,25.8,300,489,2025-03-29,2026-01-23,Delayed,10.8446,78.7034,District Agency D,22.616799999999998,8.88503504026105,-0.4003135591343146,False
-P0052,Demo MP 7,Tamil Nadu,Kanchipuram District,Drainage,Drainage improvement work in Kanchipuram,19.47,20.88,19.22,82.3,199,109,2025-04-26,2025-11-11,In Progress,12.8352,79.6821,District Agency D,17.486666666666665,3.997159408046334,0.43364128281802117,False
-P0053,Demo MP 6,Rajasthan,Jaipur District,Library,Construction of public library at Jaipur,22.44,22.87,12.62,70.0,304,298,2025-09-15,2026-07-16,In Progress,26.8508,75.7982,District Agency B,19.273846153846154,8.047959282661948,-0.8267743312495146,False
-P0054,Demo MP 8,Kerala,Thrissur District,Sanitation,Improvement of sanitation facilities in Thrissur,12.97,13.1,9.79,84.3,207,217,2025-05-10,2025-12-03,In Progress,10.5445,76.1383,District Agency D,12.356363636363636,3.614392586069444,-0.7100400897940333,False
-P0055,Demo MP 2,Madhya Pradesh,Bhopal District,Drinking Water,Installation of drinking water facility at Bhopal,16.53,16.04,12.75,58.6,122,97,2025-07-18,2025-11-17,In Progress,23.2498,77.3429,District Agency D,16.293666666666667,4.728764862671517,-0.7493852558921001,False
-P0056,Demo MP 7,Odisha,Bhubaneswar District,Sports Facility,Development of community sports ground at Bhubaneswar,24.24,24.41,20.76,61.6,253,253,2026-07-17,2027-03-27,In Progress,20.2871,85.8939,District Agency D,22.43259259259259,8.23601032641813,-0.20308286734749717,False
-P0057,Demo MP 5,Tamil Nadu,Thanjavur District,Road,Construction of village road near Thanjavur,29.15,28.21,22.53,87.1,139,121,2026-04-13,2026-08-30,In Progress,10.8492,79.1108,District Agency A,25.5009375,8.495924396486027,-0.34968972902216483,False
-P0058,Demo MP 1,Madhya Pradesh,Bhopal District,Sports Facility,Development of playground near Bhopal,27.86,29.45,27.27,76.8,170,140,2025-02-26,2025-08-15,In Progress,23.2334,77.3497,District Agency A,22.43259259259259,8.23601032641813,0.5873483902625476,False
-P0059,Demo MP 3,Karnataka,Hubballi District,Road,Improvement of road connecting Hubballi,27.33,26.72,17.66,69.1,317,297,2025-10-19,2026-09-01,In Progress,15.3955,75.1592,District Agency B,25.5009375,8.495924396486027,-0.9229057526975011,False
-P0060,Demo MP 1,Rajasthan,Jaipur District,Drainage,Construction of storm water drain at Jaipur,18.3,18.04,13.12,65.1,304,292,2024-07-24,2025-05-24,In Progress,26.99,75.8418,District Agency C,17.486666666666665,3.997159408046334,-1.09244246248386,False
-P0061,Demo MP 10,Bihar,Patna District,Road,Construction of road at Panchayat Road,19.64,19.23,14.55,77.0,300,244,2025-04-08,2026-02-02,In Progress,25.6523,85.1302,District Agency A,25.5009375,8.495924396486027,-1.2889636240794917,False
-P0062,Demo MP 8,Uttar Pradesh,Lucknow District,Road,Construction of road in Panchayat Road,19.43,20.27,17.68,84.2,212,189,2024-05-18,2024-12-16,In Progress,26.8348,80.8851,District Agency A,25.5009375,8.495924396486027,-0.9205516827850767,False
-P0063,Demo MP 10,Uttar Pradesh,Lucknow District,Drinking Water,Installation of drinking water facility at Lucknow,18.95,20.08,20.36,68.2,256,241,2024-03-14,2024-11-25,In Progress,26.9085,80.8859,District Agency D,16.293666666666667,4.728764862671517,0.8599144705698173,False
-P0064,Demo MP 7,Odisha,Bhubaneswar District,School Building,Construction of additional classrooms at Bhubaneswar School,27.05,27.18,45.69,80.2,226,177,2024-05-02,2024-12-14,In Progress,20.2914,85.8387,District Agency D,19.797241379310346,7.108141658163006,3.64269029317309,True
-P0065,Demo MP 9,Tamil Nadu,Madurai District,Drainage,Construction of roadside drainage at Madurai,19.66,20.39,12.78,93.1,194,114,2024-08-08,2025-02-18,In Progress,9.9117,78.1575,District Agency C,17.486666666666665,3.997159408046334,-1.1775028679597026,False
-P0066,Demo MP 1,Madhya Pradesh,Indore District,School Building,Construction of additional classrooms at Indore School,21.17,22.73,21.42,60.3,269,227,2025-11-18,2026-08-14,In Progress,22.6844,75.8103,District Agency D,19.797241379310346,7.108141658163006,0.22829576262398707,False
-P0067,Demo MP 9,Bihar,Patna District,Drinking Water,Drinking water pipeline and supply system at Patna,21.28,21.5,18.78,41.4,307,667,2024-04-16,2025-02-17,Delayed,25.6547,85.0802,District Agency B,16.293666666666667,4.728764862671517,0.5257891659955957,False
-P0068,Demo MP 4,Tamil Nadu,Tiruchirappalli District,Sports Facility,Development of playground near Tiruchirappalli,29.95,29.29,23.61,65.3,186,146,2024-09-17,2025-03-22,In Progress,10.8686,78.6298,District Agency A,22.43259259259259,8.23601032641813,0.14295846662925038,False
-P0069,Demo MP 9,Rajasthan,Jaipur District,Irrigation,Minor irrigation improvement work at Jaipur,24.32,25.26,20.23,69.9,219,168,2025-06-17,2026-01-22,In Progress,26.9654,75.7333,District Agency C,17.548571428571428,3.9375565581146446,0.6809879507387894,False
-P0070,Demo MP 2,Tamil Nadu,Coimbatore District,Community Hall,Construction of community hall in Coimbatore,28.38,28.46,23.66,77.8,294,255,2026-03-15,2027-01-03,In Progress,10.9941,76.9883,District Agency A,22.616799999999998,8.88503504026105,0.11741090443345649,False
-P0071,Demo MP 4,Tamil Nadu,Tiruchirappalli District,Road,Improvement of road connecting Tiruchirappalli,27.66,27.38,17.52,60.5,230,204,2026-05-03,2026-12-19,In Progress,10.8389,78.7676,District Agency D,25.5009375,8.495924396486027,-0.9393842420844718,False
-P0072,Demo MP 8,Bihar,Patna District,Drainage,Construction of roadside drainage at Patna,20.41,20.27,15.6,74.7,176,154,2024-10-03,2025-03-28,In Progress,25.6307,85.1471,District Agency A,17.486666666666665,3.997159408046334,-0.4720018578365377,False
-P0073,Demo MP 2,Madhya Pradesh,Indore District,Drinking Water,Drinking water pipeline and supply system at Indore,19.25,18.94,17.58,59.6,206,126,2024-05-27,2024-12-19,In Progress,22.75,75.8983,District Agency A,16.293666666666667,4.728764862671517,0.27202311188859096,False
-P0074,Demo MP 10,Tamil Nadu,Salem District,Bus Shelter,Bus shelter development near Salem,13.1,13.22,9.75,87.4,298,286,2025-07-04,2026-04-28,In Progress,11.6398,78.0881,District Agency C,13.026363636363635,5.457277836548308,-0.6003659213429224,False
-P0075,Demo MP 8,Rajasthan,Jaipur District,Road,Construction of village road near Jaipur,32.13,32.2,22.98,71.9,175,168,2024-09-28,2025-03-22,In Progress,26.8644,75.8,District Agency D,25.5009375,8.495924396486027,-0.2967231559926164,False
-P0076,Demo MP 9,Tamil Nadu,Madurai District,Library,Library building improvement at Madurai,24.07,23.37,16.14,80.8,159,147,2026-06-25,2026-12-01,In Progress,9.8516,78.126,District Agency D,19.273846153846154,8.047959282661948,-0.3893963728913898,False
-P0077,Demo MP 3,Tamil Nadu,Coimbatore District,Sanitation,Construction of public sanitation facility at Coimbatore,13.71,13.82,8.89,60.3,179,184,2024-02-25,2024-08-22,In Progress,10.9529,76.996,District Agency D,12.356363636363636,3.614392586069444,-0.9590445846208459,False
-P0078,Demo MP 2,Maharashtra,Pune District,Sports Facility,Development of community sports ground at Pune,27.33,29.09,39.06,98.3,243,214,2024-10-12,2025-06-12,Completed,18.4747,73.9095,District Agency C,22.43259259259259,8.23601032641813,2.018866750818989,True
-P0079,Demo MP 2,Odisha,Bhubaneswar District,Street Lighting,Street lighting improvement in Bhubaneswar,14.43,15.21,11.24,75.9,202,219,2024-03-20,2024-10-08,In Progress,20.2572,85.8919,District Agency D,14.468,6.960790783620301,-0.4637404140339813,False
-P0080,Demo MP 9,Tamil Nadu,Kanchipuram District,Sanitation,Construction of community toilet at Kanchipuram,17.16,17.08,23.95,30.0,245,502,2024-12-11,2025-08-13,Delayed,12.8169,79.6782,District Agency C,12.356363636363636,3.614392586069444,3.2076306288144907,True
-P0081,Demo MP 1,Kerala,Thrissur District,Sanitation,Improvement of sanitation facilities in Thrissur,14.12,15.24,15.17,70.8,294,299,2026-06-05,2027-03-26,In Progress,10.5679,76.2279,District Agency A,12.356363636363636,3.614392586069444,0.778453445948471,False
-P0082,Demo MP 7,Tamil Nadu,Erode District,Community Hall,Construction of community hall at Erode,24.06,25.24,19.09,95.2,284,258,2025-12-12,2026-09-22,Completed,11.3214,77.7153,District Agency C,22.616799999999998,8.88503504026105,-0.3969370952414812,False
-P0083,Demo MP 5,Tamil Nadu,Coimbatore District,Bus Shelter,Improvement of passenger shelter at Coimbatore,14.67,14.43,13.43,77.9,259,224,2026-01-19,2026-10-05,In Progress,11.0485,76.956,District Agency C,13.026363636363635,5.457277836548308,0.07396294924424474,False
-P0084,Demo MP 9,Kerala,Thrissur District,Street Lighting,Street lighting improvement in Thrissur,15.56,16.34,14.68,99.6,266,160,2025-04-14,2026-01-05,Completed,10.4684,76.2042,District Agency B,14.468,6.960790783620301,0.030456309719703818,False
-P0085,Demo MP 7,Madhya Pradesh,Bhopal District,Sanitation,Construction of community toilet at Bhopal,14.44,15.55,11.62,68.0,228,200,2024-01-26,2024-09-10,In Progress,23.2435,77.4917,District Agency C,12.356363636363636,3.614392586069444,-0.20373095031284696,False
-P0086,Demo MP 1,Rajasthan,Jaipur District,Drinking Water,Water supply improvement work at Jaipur,14.37,15.2,10.84,55.5,229,334,2025-04-26,2025-12-11,Delayed,26.849,75.7627,District Agency D,16.293666666666667,4.728764862671517,-1.1532962253457484,False
-P0087,Demo MP 1,Tamil Nadu,Madurai District,Sports Facility,Construction of sports facility at Madurai,25.26,26.22,18.9,62.0,128,107,2025-09-01,2026-01-07,In Progress,9.9224,78.1943,District Agency B,22.43259259259259,8.23601032641813,-0.42892036952179613,False
-P0088,Demo MP 5,Karnataka,Hubballi District,Library,Development of reading room at Hubballi,19.85,20.85,19.61,60.1,173,125,2025-03-25,2025-09-14,In Progress,15.3372,75.2036,District Agency B,19.273846153846154,8.047959282661948,0.04176883037642043,False
-P0089,Demo MP 10,Tamil Nadu,Erode District,Drinking Water,Drinking water pipeline and supply system at Erode,17.2,17.11,15.99,97.3,132,98,2026-04-11,2026-08-21,Completed,11.3512,77.779,District Agency D,16.293666666666667,4.728764862671517,-0.06421690980318906,False
-P0090,Demo MP 5,Maharashtra,Pune District,Road,Construction of internal road at Pune,24.93,25.82,20.09,67.3,291,233,2026-02-03,2026-11-21,In Progress,18.4566,73.8888,District Agency D,25.5009375,8.495924396486027,-0.6368862583379391,False
-P0091,Demo MP 5,Tamil Nadu,Chennai District,School Building,Construction of school building at Government Higher Secondary School,13.07,12.84,23.01,60.3,278,191,2025-04-28,2026-01-31,In Progress,13.0962,80.2396,District Agency A,19.797241379310346,7.108141658163006,0.45198291975513966,False
-P0092,Demo MP 10,Tamil Nadu,Thanjavur District,School Building,Construction of school building in Government Higher Secondary School,31.95,34.03,32.17,97.4,251,138,2025-09-03,2026-05-12,Completed,10.825,79.0723,District Agency D,19.797241379310346,7.108141658163006,1.740646038825176,False
-P0093,Demo MP 6,Maharashtra,Pune District,Bus Shelter,Improvement of passenger shelter at Pune,14.88,14.57,10.02,93.3,271,186,2025-06-28,2026-03-26,In Progress,18.5888,73.8531,District Agency C,13.026363636363635,5.457277836548308,-0.5508907052944075,False
-P0094,Demo MP 7,Tamil Nadu,Erode District,Irrigation,Construction of irrigation channel near Erode,19.7,20.85,27.25,90.0,303,319,2025-07-18,2026-05-17,In Progress,11.4014,77.6884,District Agency A,17.548571428571428,3.9375565581146446,2.4638194850650597,True
-P0095,Demo MP 9,Tamil Nadu,Thanjavur District,Health Facility,Health facility improvement work at Thanjavur,26.9,26.41,19.88,75.6,310,282,2026-05-23,2027-03-29,In Progress,10.8078,79.0718,District Agency B,25.37185185185185,9.247370119718044,-0.5938825612853593,False
-P0096,Demo MP 5,Tamil Nadu,Coimbatore District,Bus Shelter,Construction of public bus shelter at Coimbatore,17.11,17.91,17.4,60.9,213,205,2024-06-04,2025-01-03,In Progress,10.9955,77.0029,District Agency A,13.026363636363635,5.457277836548308,0.8014318666983352,False
-P0097,Demo MP 3,Bihar,Patna District,School Building,Renovation and extension of classrooms at Patna School,26.03,27.04,17.34,96.6,283,239,2024-04-01,2025-01-09,Completed,25.5924,85.087,District Agency D,19.797241379310346,7.108141658163006,-0.3456939235993482,False
-P0098,Demo MP 10,Odisha,Bhubaneswar District,Health Facility,Health facility improvement work at Bhubaneswar,36.51,36.39,33.76,67.1,265,227,2025-05-23,2026-02-12,In Progress,20.2842,85.8104,District Agency D,25.37185185185185,9.247370119718044,0.9070847213373899,False
-P0099,Demo MP 5,Bihar,Patna District,School Building,Renovation and extension of classrooms at Patna School,22.46,22.31,37.04,56.2,172,166,2026-07-04,2026-12-23,In Progress,25.6646,85.196,District Agency B,19.797241379310346,7.108141658163006,2.4257758848809705,True
-P0100,Demo MP 9,Karnataka,Mysuru District,Street Lighting,Installation of LED street lights at Mysuru,17.08,17.26,9.58,77.5,161,140,2024-03-01,2024-08-09,In Progress,12.2959,76.5983,District Agency A,14.468,6.960790783620301,-0.7022190656127946,False
-P0101,Demo MP 3,Karnataka,Mysuru District,Library,Construction of public library at Mysuru,17.92,17.58,10.38,57.8,296,223,2026-01-17,2026-11-09,In Progress,12.3053,76.6823,District Agency D,19.273846153846154,8.047959282661948,-1.1051057592955937,False
-P0102,Demo MP 2,Kerala,Kochi District,Bus Shelter,Construction of public bus shelter at Kochi,12.81,12.84,7.84,82.4,285,175,2024-08-08,2025-05-20,In Progress,10.0055,76.2296,District Agency A,13.026363636363635,5.457277836548308,-0.9503572645009358,False
-P0103,Demo MP 5,Karnataka,Hubballi District,Irrigation,Construction of irrigation channel near Hubballi,16.52,15.87,13.14,59.1,221,457,2024-09-25,2025-05-04,Delayed,15.3684,75.1321,District Agency A,17.548571428571428,3.9375565581146446,-1.1196211060095378,False
-P0104,Demo MP 7,Bihar,Patna District,Sanitation,Improvement of sanitation facilities in Patna,14.22,14.92,9.29,27.9,156,314,2024-04-18,2024-09-21,Delayed,25.5704,85.1036,District Agency A,12.356363636363636,3.614392586069444,-0.8483759202533738,False
-P0105,Demo MP 3,Tamil Nadu,Madurai District,Health Facility,Health facility improvement work at Madurai,32.45,33.6,21.56,78.0,266,212,2024-08-08,2025-05-01,In Progress,9.8705,78.152,District Agency D,25.37185185185185,9.247370119718044,-0.412209287884335,False
-P0106,Demo MP 10,Tamil Nadu,Tiruchirappalli District,Sports Facility,Development of community sports ground at Tiruchirappalli,23.88,24.05,19.71,56.4,184,152,2024-02-01,2024-08-03,In Progress,10.7979,78.6642,District Agency D,22.43259259259259,8.23601032641813,-0.33057177986524644,False
-P0107,Demo MP 9,Tamil Nadu,Tiruchirappalli District,Drinking Water,Installation of drinking water facility at Tiruchirappalli,21.39,21.45,20.77,57.8,298,167,2025-07-01,2026-04-25,In Progress,10.8286,78.6319,District Agency A,16.293666666666667,4.728764862671517,0.9466178723897104,False
-P0108,Demo MP 8,Rajasthan,Jaipur District,Bus Shelter,Improvement of passenger shelter at Jaipur,12.39,12.06,9.45,82.9,148,82,2024-11-19,2025-04-16,In Progress,26.8452,75.8305,District Agency B,13.026363636363635,5.457277836548308,-0.6553383836190503,False
-P0109,Demo MP 4,Tamil Nadu,Coimbatore District,Drainage,Construction of storm water drain at Coimbatore,21.12,20.96,20.14,89.6,263,235,2025-04-18,2026-01-06,In Progress,10.942,77.033,District Agency C,17.486666666666665,3.997159408046334,0.663804732929125,False
-P0110,Demo MP 8,Madhya Pradesh,Bhopal District,Sports Facility,Construction of sports facility at Bhopal,24.99,25.31,32.91,23.8,169,360,2024-01-31,2024-07-18,Delayed,23.3218,77.3992,District Agency A,22.43259259259259,8.23601032641813,1.2721459775007429,False
-P0111,Demo MP 9,Madhya Pradesh,Indore District,Sanitation,Construction of public sanitation facility at Indore,14.52,15.21,13.82,30.0,129,207,2025-06-18,2025-10-25,Delayed,22.6973,75.8327,District Agency C,12.356363636363636,3.614392586069444,0.4049467037082517,False
-P0112,Demo MP 4,Maharashtra,Pune District,Bus Shelter,Construction of public bus shelter at Pune,14.31,14.2,13.09,82.3,176,145,2025-01-15,2025-07-10,In Progress,18.4642,73.9306,District Agency B,13.026363636363635,5.457277836548308,0.011660825331299965,False
-P0113,Demo MP 1,Karnataka,Mysuru District,Irrigation,Minor irrigation improvement work at Mysuru,20.82,20.1,19.82,87.6,277,233,2026-01-21,2026-10-25,In Progress,12.2737,76.6112,District Agency D,17.548571428571428,3.9375565581146446,0.5768624622667422,False
-P0114,Demo MP 7,Tamil Nadu,Chennai District,Road,Road strengthening work at Chennai,26.77,28.68,26.53,55.5,210,120,2024-02-15,2024-09-12,In Progress,13.0262,80.2924,District Agency C,25.5009375,8.495924396486027,0.12112425346271083,False
-P0115,Demo MP 1,Bihar,Patna District,School Building,Construction of additional classrooms at Patna School,24.89,24.76,19.92,72.6,132,124,2024-02-13,2024-06-24,In Progress,25.5868,85.126,District Agency C,19.797241379310346,7.108141658163006,0.017270142688937423,False
-P0116,Demo MP 3,Karnataka,Hubballi District,Community Hall,Community hall construction near Hubballi,25.62,26.86,18.22,62.4,157,150,2024-11-26,2025-05-02,In Progress,15.3795,75.1889,District Agency A,22.616799999999998,8.88503504026105,-0.49485454813364665,False
-P0117,Demo MP 4,Kerala,Kochi District,Community Hall,Construction of community hall in Kochi,25.54,25.78,17.83,56.6,256,165,2026-07-13,2027-03-26,In Progress,9.9353,76.2415,District Agency B,22.616799999999998,8.88503504026105,-0.5387485787404794,False
-P0118,Demo MP 8,Karnataka,Mysuru District,Road,Road strengthening work at Mysuru,26.91,26.12,15.02,80.4,268,245,2024-08-01,2025-04-26,In Progress,12.2974,76.6906,District Agency D,25.5009375,8.495924396486027,-1.2336429811375191,False
-P0119,Demo MP 3,Uttar Pradesh,Lucknow District,Drinking Water,Installation of drinking water facility at Lucknow,16.1,17.23,24.41,49.9,241,488,2025-01-30,2025-09-28,Delayed,26.7919,80.9737,District Agency B,16.293666666666667,4.728764862671517,1.7163749031809563,False
-P0120,Demo MP 9,Tamil Nadu,Chennai District,Library,Development of reading room at Chennai,21.46,21.43,19.08,73.7,277,265,2025-01-28,2025-11-01,In Progress,13.0534,80.247,District Agency B,19.273846153846154,8.047959282661948,-0.024086373580910977,False
-P0121,Demo MP 9,Madhya Pradesh,Indore District,Drinking Water,Construction of drinking water at Village Main Street,19.42,19.84,14.9,77.1,179,115,2024-12-03,2025-05-31,In Progress,22.7695,75.9021,District Agency A,16.293666666666667,4.728764862671517,-0.2947210756170511,False
-P0122,Demo MP 4,Madhya Pradesh,Bhopal District,Drinking Water,Construction of drinking water in Village Main Street,24.96,25.79,21.54,99.4,294,289,2025-02-18,2025-12-09,Completed,23.3336,77.3829,District Agency C,16.293666666666667,4.728764862671517,1.1094510904417045,False
-P0123,Demo MP 4,Kerala,Kochi District,Street Lighting,Street lighting improvement in Kochi,14.14,14.81,11.26,56.7,202,173,2024-10-25,2025-05-15,In Progress,9.998,76.2507,District Agency D,14.468,6.960790783620301,-0.46086717726797155,False
-P0124,Demo MP 9,Karnataka,Mysuru District,Health Facility,Health facility improvement work at Mysuru,36.62,36.55,65.37,57.4,280,257,2025-11-18,2026-08-25,In Progress,12.3736,76.6148,District Agency C,25.37185185185185,9.247370119718044,4.325353871460237,True
-P0125,Demo MP 10,Maharashtra,Pune District,Drainage,Construction of roadside drainage at Pune,19.75,21.04,18.27,94.3,142,124,2024-01-12,2024-06-02,In Progress,18.467,73.8118,District Agency D,17.486666666666665,3.997159408046334,0.19597250281199063,False
-P0126,Demo MP 5,Odisha,Bhubaneswar District,Road,Road strengthening work at Bhubaneswar,27.45,27.69,25.98,81.4,222,206,2024-02-27,2024-10-06,In Progress,20.3187,85.8439,District Agency B,25.5009375,8.495924396486027,0.056387330871040336,False
-P0127,Demo MP 2,Tamil Nadu,Madurai District,Drinking Water,Water supply improvement work at Madurai,21.32,20.95,17.38,55.2,215,118,2026-05-22,2026-12-23,In Progress,9.8876,78.1335,District Agency C,16.293666666666667,4.728764862671517,0.22972876953742374,False
-P0128,Demo MP 5,Uttar Pradesh,Lucknow District,Irrigation,Construction of irrigation channel near Lucknow,21.95,22.2,18.31,77.2,140,83,2025-12-11,2026-04-30,In Progress,26.7846,80.8969,District Agency B,17.548571428571428,3.9375565581146446,0.19337590716237305,False
-P0129,Demo MP 4,Kerala,Thrissur District,Drainage,Drainage improvement work in Thrissur,17.34,17.43,14.71,66.2,308,313,2026-06-18,2027-04-22,In Progress,10.4645,76.2493,District Agency B,17.486666666666665,3.997159408046334,-0.6946599780527135,False
-P0130,Demo MP 10,Rajasthan,Jaipur District,Library,Library building improvement at Jaipur,20.48,21.91,16.86,76.3,144,125,2025-09-18,2026-02-09,In Progress,26.9605,75.8578,District Agency C,19.273846153846154,8.047959282661948,-0.29993269959086444,False
-P0131,Demo MP 3,Tamil Nadu,Salem District,Sports Facility,Construction of sports facility at Salem,29.13,29.5,17.15,90.5,203,143,2025-06-23,2026-01-12,In Progress,11.6269,78.2113,District Agency B,22.43259259259259,8.23601032641813,-0.6414018903847114,False
-P0132,Demo MP 1,Karnataka,Mysuru District,Street Lighting,Installation of LED street lights at Mysuru,12.83,13.75,10.83,76.4,133,121,2025-02-01,2025-06-14,In Progress,12.2721,76.5819,District Agency A,14.468,6.960790783620301,-0.5226417677371822,False
-P0133,Demo MP 5,Tamil Nadu,Kanchipuram District,Sports Facility,Development of playground near Kanchipuram,23.69,24.32,14.84,95.2,166,171,2026-03-20,2026-09-02,Completed,12.7887,79.6711,District Agency B,22.43259259259259,8.23601032641813,-0.9218774979237595,False
-P0134,Demo MP 9,Tamil Nadu,Salem District,Sanitation,Construction of community toilet at Salem,17.36,18.43,13.04,91.1,125,108,2024-09-14,2025-01-17,In Progress,11.6436,78.2185,District Agency A,12.356363636363636,3.614392586069444,0.18914280819168014,False
-P0135,Demo MP 4,Maharashtra,Pune District,Health Facility,Construction of primary health sub-centre at Pune,28.67,30.57,20.04,84.8,130,96,2024-11-25,2025-04-04,In Progress,18.4905,73.7921,District Agency D,25.37185185185185,9.247370119718044,-0.5765803447709761,False
-P0136,Demo MP 3,Maharashtra,Nagpur District,Sports Facility,Construction of sports facility at Nagpur,29.75,28.82,24.54,75.0,147,148,2025-08-01,2025-12-26,In Progress,21.2133,79.0764,District Agency C,22.43259259259259,8.23601032641813,0.25587721771639965,False
-P0137,Demo MP 7,Karnataka,Mysuru District,Community Hall,Construction of community hall in Mysuru,24.83,23.98,14.89,85.2,155,146,2024-10-17,2025-03-21,In Progress,12.2472,76.6731,District Agency A,22.616799999999998,8.88503504026105,-0.8696420402381415,False
-P0138,Demo MP 10,Tamil Nadu,Chennai District,School Building,Renovation and extension of classrooms at Chennai School,19.51,20.74,12.01,72.7,253,140,2026-07-10,2027-03-20,In Progress,13.1626,80.2638,District Agency D,19.797241379310346,7.108141658163006,-1.0955382931018913,False
-P0139,Demo MP 6,Kerala,Thrissur District,Community Hall,Construction of community hall at Thrissur,26.7,25.82,18.26,79.9,174,102,2025-02-02,2025-07-26,In Progress,10.4662,76.2588,District Agency A,22.616799999999998,8.88503504026105,-0.4903525962765353,False
-P0140,Demo MP 4,Uttar Pradesh,Lucknow District,Library,Construction of public library at Lucknow,22.36,23.59,15.22,75.4,228,180,2025-09-27,2026-05-13,In Progress,26.8692,80.9039,District Agency C,19.273846153846154,8.047959282661948,-0.5037110665531723,False
-P0141,Demo MP 3,Tamil Nadu,Kanchipuram District,Health Facility,Construction of patient waiting area at Kanchipuram Health Centre,32.63,33.38,19.05,58.6,254,262,2024-12-28,2025-09-08,In Progress,12.8891,79.6921,District Agency B,25.37185185185185,9.247370119718044,-0.6836378094537224,False
-P0142,Demo MP 2,Kerala,Kochi District,Bus Shelter,Construction of public bus shelter at Kochi,11.58,11.29,9.25,76.5,273,195,2025-12-06,2026-09-05,In Progress,9.8924,76.278,District Agency D,13.026363636363635,5.457277836548308,-0.6919866918031353,False
-P0143,Demo MP 5,Tamil Nadu,Salem District,Drainage,Construction of storm water drain at Salem,24.04,24.93,17.83,64.1,213,132,2024-07-15,2025-02-13,In Progress,11.6225,78.1762,District Agency B,17.486666666666665,3.997159408046334,0.08589433101972346,False
-P0144,Demo MP 3,Maharashtra,Pune District,School Building,Construction of school building at Pune,23.6,24.72,15.37,33.8,143,232,2024-11-04,2025-03-27,Delayed,18.4999,73.8527,District Agency A,19.797241379310346,7.108141658163006,-0.6228409044473802,False
-P0145,Demo MP 8,Tamil Nadu,Erode District,School Building,Renovation and extension of classrooms at Erode School,21.43,21.59,18.34,73.2,268,152,2025-05-14,2026-02-06,In Progress,11.2807,77.7641,District Agency A,19.797241379310346,7.108141658163006,-0.20501017697598178,False
-P0146,Demo MP 2,Maharashtra,Nagpur District,Irrigation,Water conservation and irrigation work at Nagpur,18.99,19.78,13.15,64.3,175,122,2024-10-16,2025-04-09,In Progress,21.0927,79.0363,District Agency B,17.548571428571428,3.9375565581146446,-1.117081459949244,False
-P0147,Demo MP 9,Tamil Nadu,Salem District,Street Lighting,Installation of LED street lights at Salem,14.09,14.69,25.48,51.5,263,484,2024-02-24,2024-11-13,Delayed,11.5953,78.0967,District Agency C,14.468,6.960790783620301,1.5820041633649946,False
-P0148,Demo MP 4,Uttar Pradesh,Lucknow District,Drinking Water,Drinking water pipeline and supply system at Lucknow,17.58,17.63,12.89,71.8,281,216,2026-02-11,2026-11-19,In Progress,26.7797,81.0086,District Agency D,16.293666666666667,4.728764862671517,-0.7197792162462828,False
-P0149,Demo MP 5,Karnataka,Mysuru District,Drinking Water,Drinking water pipeline and supply system at Mysuru,19.43,19.7,19.48,61.3,207,193,2025-09-27,2026-04-22,In Progress,12.251,76.5596,District Agency D,16.293666666666667,4.728764862671517,0.6738193642246812,False
-P0150,Demo MP 9,Kerala,Thrissur District,Bus Shelter,Bus shelter development near Thrissur,12.81,12.81,9.62,83.9,178,127,2026-07-12,2027-01-06,In Progress,10.5167,76.1923,District Agency D,13.026363636363635,5.457277836548308,-0.624187321662578,False
-P0151,Demo MP 10,Uttar Pradesh,Lucknow District,Health Facility,Construction of health facility at Primary Health Centre,14.33,14.58,23.52,92.8,259,204,2024-02-12,2024-10-28,In Progress,26.771,80.9485,District Agency A,25.37185185185185,9.247370119718044,-0.2002571355831397,False
-P0152,Demo MP 2,Kerala,Kochi District,Health Facility,Construction of health facility in Primary Health Centre,29.67,28.49,22.65,79.5,204,138,2026-02-10,2026-09-02,In Progress,9.9226,76.2983,District Agency C,25.37185185185185,9.247370119718044,-0.2943379378800989,False
-P0153,Demo MP 3,Madhya Pradesh,Bhopal District,Drinking Water,Installation of drinking water facility at Bhopal,17.2,17.46,30.63,92.2,259,245,2024-04-25,2025-01-09,In Progress,23.1885,77.4775,District Agency D,16.293666666666667,4.728764862671517,3.0317289503022606,True
-P0154,Demo MP 2,Bihar,Patna District,Road,Construction of village road near Patna,27.52,27.13,16.42,84.5,257,193,2024-07-02,2025-03-16,In Progress,25.5785,85.1536,District Agency B,25.5009375,8.495924396486027,-1.0688580872678124,False
-P0155,Demo MP 8,Tamil Nadu,Erode District,School Building,Renovation and extension of classrooms at Erode School,18.95,19.99,18.65,89.8,175,150,2025-09-16,2026-03-10,In Progress,11.4072,77.7183,District Agency D,19.797241379310346,7.108141658163006,-0.1613982155227384,False
-P0156,Demo MP 1,Tamil Nadu,Chennai District,School Building,Renovation and extension of classrooms at Chennai School,21.27,22.21,16.78,73.6,184,155,2026-05-25,2026-11-25,In Progress,13.054,80.2879,District Agency D,19.797241379310346,7.108141658163006,-0.42447682170843326,False
-P0157,Demo MP 5,Tamil Nadu,Thanjavur District,Sports Facility,Development of community sports ground at Thanjavur,21.57,21.21,17.93,91.4,303,258,2024-10-25,2025-08-24,In Progress,10.857,79.1386,District Agency B,22.43259259259259,8.23601032641813,-0.5466958410858119,False
-P0158,Demo MP 4,Karnataka,Hubballi District,Street Lighting,Street lighting improvement in Hubballi,11.92,11.68,6.67,67.2,275,169,2024-01-29,2024-10-30,In Progress,15.305,75.0668,District Agency A,14.468,6.960790783620301,-1.12027501506722,False
-P0159,Demo MP 8,Madhya Pradesh,Bhopal District,Library,Library building improvement at Bhopal,24.82,24.25,44.21,25.3,161,307,2026-03-20,2026-08-28,Delayed,23.2121,77.4916,District Agency A,19.273846153846154,8.047959282661948,3.0984443348110418,True
-P0160,Demo MP 1,Odisha,Bhubaneswar District,Community Hall,Construction of community hall in Bhubaneswar,25.8,26.89,19.62,50.0,303,482,2024-09-11,2025-07-11,Delayed,20.2436,85.8514,District Agency A,22.616799999999998,8.88503504026105,-0.33728623313475964,False
-P0161,Demo MP 5,Tamil Nadu,Tiruchirappalli District,Library,Library building improvement at Tiruchirappalli,24.82,24.81,20.97,90.4,187,133,2024-08-07,2025-02-10,In Progress,10.8172,78.7484,District Agency A,19.273846153846154,8.047959282661948,0.2107557688329685,False
-P0162,Demo MP 3,Maharashtra,Nagpur District,Health Facility,Construction of primary health sub-centre at Nagpur,39.34,38.68,31.42,92.4,120,101,2025-07-15,2025-11-12,In Progress,21.106,79.0211,District Agency D,25.37185185185185,9.247370119718044,0.6540398048145348,False
-P0163,Demo MP 3,Uttar Pradesh,Lucknow District,Irrigation,Construction of irrigation channel near Lucknow,24.75,24.26,15.38,76.7,231,228,2024-06-02,2025-01-19,In Progress,26.768,81.0201,District Agency D,17.548571428571428,3.9375565581146446,-0.5507403885037193,False
-P0164,Demo MP 4,Maharashtra,Nagpur District,Library,Development of reading room at Nagpur,18.74,18.38,11.56,77.6,316,186,2025-05-01,2026-03-13,In Progress,21.1631,79.1636,District Agency D,19.273846153846154,8.047959282661948,-0.958484739164177,False
-P0165,Demo MP 6,Uttar Pradesh,Lucknow District,Sanitation,Improvement of sanitation facilities in Lucknow,14.93,15.83,12.88,69.9,153,123,2025-10-04,2026-03-06,In Progress,26.9244,80.8905,District Agency D,12.356363636363636,3.614392586069444,0.1448753424446916,False
-P0166,Demo MP 10,Tamil Nadu,Coimbatore District,Street Lighting,Installation of solar street lights near Coimbatore,13.84,14.13,11.21,57.6,249,226,2025-11-21,2026-07-28,In Progress,10.9438,76.9616,District Agency A,14.468,6.960790783620301,-0.4680502691829959,False
-P0167,Demo MP 8,Karnataka,Hubballi District,Drinking Water,Water supply improvement work at Hubballi,14.99,16.07,14.01,32.4,212,332,2025-07-09,2026-02-06,Delayed,15.3881,75.1174,District Agency D,16.293666666666667,4.728764862671517,-0.4829308990797459,False
-P0168,Demo MP 4,Tamil Nadu,Coimbatore District,Road,Construction of village road near Coimbatore,24.39,25.93,21.87,81.3,160,138,2026-07-26,2027-01-02,In Progress,11.0287,76.9587,District Agency B,25.5009375,8.495924396486027,-0.42737403613216934,False
-P0169,Demo MP 4,Madhya Pradesh,Indore District,Community Hall,Construction of community hall at Indore,23.59,22.81,14.51,61.3,263,175,2025-07-07,2026-03-27,In Progress,22.657,75.8638,District Agency D,22.616799999999998,8.88503504026105,-0.9124105828806965,False
-P0170,Demo MP 5,Madhya Pradesh,Bhopal District,Community Hall,Construction of community hall in Bhopal,14.08,14.25,11.08,66.4,215,205,2025-11-11,2026-06-14,In Progress,23.1844,77.3859,District Agency B,22.616799999999998,8.88503504026105,-1.2984529546279693,False
-P0171,Demo MP 5,Tamil Nadu,Kanchipuram District,Drinking Water,Water supply improvement work at Kanchipuram,15.79,16.25,11.75,69.0,206,134,2026-03-09,2026-10-01,In Progress,12.7551,79.772,District Agency B,16.293666666666667,4.728764862671517,-0.9608569676479368,False
-P0172,Demo MP 3,Kerala,Thrissur District,Library,Construction of public library at Thrissur,25.98,26.54,19.18,89.2,308,248,2026-07-19,2027-05-23,In Progress,10.564,76.1573,District Agency C,19.273846153846154,8.047959282661948,-0.011660863400282261,False
-P0173,Demo MP 7,Madhya Pradesh,Indore District,Sports Facility,Construction of sports facility at Indore,29.38,30.47,28.33,90.7,273,191,2024-05-13,2025-02-10,In Progress,22.6847,75.9229,District Agency D,22.43259259259259,8.23601032641813,0.7160514828995133,False
-P0174,Demo MP 10,Kerala,Thrissur District,Street Lighting,Street lighting improvement in Thrissur,15.14,15.71,13.47,82.3,141,118,2024-04-04,2024-08-23,In Progress,10.4577,76.2051,District Agency A,14.468,6.960790783620301,-0.1433745146238888,False
-P0175,Demo MP 7,Maharashtra,Pune District,Drainage,Drainage improvement work in Pune,21.31,21.64,20.98,88.8,185,125,2024-04-15,2024-10-17,In Progress,18.511,73.8972,District Agency B,17.486666666666665,3.997159408046334,0.873953969987089,False
-P0176,Demo MP 7,Odisha,Bhubaneswar District,Street Lighting,Installation of solar street lights near Bhubaneswar,11.31,11.31,11.15,69.8,142,80,2025-10-01,2026-02-20,In Progress,20.3121,85.7969,District Agency B,14.468,6.960790783620301,-0.47666997948102535,False
-P0177,Demo MP 5,Madhya Pradesh,Bhopal District,Sanitation,Construction of public sanitation facility at Bhopal,11.16,10.95,15.79,28.4,214,410,2024-08-30,2025-04-01,Delayed,23.2424,77.4633,District Agency C,12.356363636363636,3.614392586069444,0.949989875718053,False
-P0178,Demo MP 5,Madhya Pradesh,Bhopal District,Sanitation,Construction of community toilet at Bhopal,14.86,14.7,11.87,76.2,211,187,2025-03-17,2025-10-14,In Progress,23.192,77.3429,District Agency B,12.356363636363636,3.614392586069444,-0.13456303508317669,False
-P0179,Demo MP 5,Uttar Pradesh,Lucknow District,Street Lighting,Installation of LED street lights at Lucknow,14.09,14.77,11.09,94.2,123,113,2026-04-04,2026-08-05,In Progress,26.8645,80.96,District Agency C,14.468,6.960790783620301,-0.48528968977905484,False
-P0180,Demo MP 10,Rajasthan,Jaipur District,Sanitation,Construction of community toilet at Jaipur,13.7,13.32,11.77,58.9,149,105,2024-09-30,2025-02-26,In Progress,26.9854,75.779,District Agency A,12.356363636363636,3.614392586069444,-0.1622302011750447,False
-P0181,Demo MP 9,Maharashtra,Nagpur District,Drainage,Construction of drainage at Market Road,27.03,26.47,20.98,98.8,146,151,2024-11-29,2025-04-24,Completed,21.1951,79.0261,District Agency D,17.486666666666665,3.997159408046334,0.873953969987089,False
-P0182,Demo MP 6,Tamil Nadu,Erode District,Drainage,Construction of drainage in Market Road,28.99,30.6,28.15,71.9,155,142,2025-04-05,2025-09-07,In Progress,11.409,77.6895,District Agency C,17.486666666666665,3.997159408046334,2.6677278148747097,True
-P0183,Demo MP 9,Maharashtra,Pune District,Health Facility,Construction of patient waiting area at Pune Health Centre,27.98,27.54,23.41,58.3,235,208,2024-07-12,2025-03-04,In Progress,18.4806,73.7935,District Agency D,25.37185185185185,9.247370119718044,-0.21215240943677816,False
-P0184,Demo MP 8,Tamil Nadu,Tiruchirappalli District,School Building,Construction of school building at Tiruchirappalli,28.03,27.04,15.26,64.2,304,214,2025-03-08,2026-01-06,In Progress,10.7821,78.6854,District Agency A,19.797241379310346,7.108141658163006,-0.6383161165759504,False
-P0185,Demo MP 5,Karnataka,Mysuru District,Irrigation,Water conservation and irrigation work at Mysuru,24.55,25.01,15.34,92.1,210,207,2025-10-30,2026-05-28,In Progress,12.3653,76.6759,District Agency C,17.548571428571428,3.9375565581146446,-0.5608989727448949,False
-P0186,Demo MP 1,Madhya Pradesh,Indore District,Health Facility,Construction of patient waiting area at Indore Health Centre,31.59,32.37,23.37,78.5,243,149,2024-02-15,2024-10-15,In Progress,22.7756,75.8747,District Agency A,25.37185185185185,9.247370119718044,-0.21647796356537388,False
-P0187,Demo MP 7,Bihar,Patna District,Road,Road strengthening work at Patna,27.05,27.98,27.27,92.4,145,116,2024-01-11,2024-06-04,In Progress,25.5263,85.1248,District Agency D,25.5009375,8.495924396486027,0.20822484022241264,False
-P0188,Demo MP 7,Odisha,Bhubaneswar District,Drainage,Construction of storm water drain at Bhubaneswar,21.17,22.53,18.93,72.9,219,138,2024-08-06,2025-03-13,In Progress,20.3249,85.7896,District Agency B,17.486666666666665,3.997159408046334,0.36108976050039093,False
-P0189,Demo MP 4,Tamil Nadu,Salem District,Street Lighting,Installation of LED street lights at Salem,16.19,16.98,16.88,93.9,142,121,2024-12-13,2025-05-04,In Progress,11.6365,78.2027,District Agency D,14.468,6.960790783620301,0.34651235398078145,False
-P0190,Demo MP 8,Tamil Nadu,Salem District,Sports Facility,Development of playground near Salem,26.56,25.71,25.19,95.6,276,168,2025-06-25,2026-03-28,Completed,11.6407,78.1606,District Agency D,22.43259259259259,8.23601032641813,0.33479892546548273,False
-P0191,Demo MP 9,Maharashtra,Pune District,Sanitation,Improvement of sanitation facilities in Pune,14.77,14.79,9.07,96.6,217,188,2026-02-22,2026-09-27,Completed,18.5878,73.8264,District Agency A,12.356363636363636,3.614392586069444,-0.9092436856554834,False
-P0192,Demo MP 4,Kerala,Thrissur District,Health Facility,Construction of patient waiting area at Thrissur Health Centre,34.32,36.2,22.54,93.9,128,99,2025-05-30,2025-10-05,In Progress,10.5596,76.2491,District Agency C,25.37185185185185,9.247370119718044,-0.30623321173373735,False
-P0193,Demo MP 1,Tamil Nadu,Thanjavur District,Road,Improvement of road connecting Thanjavur,28.99,29.63,24.7,85.4,232,212,2025-06-20,2026-02-07,In Progress,10.7452,79.2064,District Agency C,25.5009375,8.495924396486027,-0.09427314352412001,False
-P0194,Demo MP 3,Karnataka,Mysuru District,Health Facility,Health facility improvement work at Mysuru,31.62,32.44,23.6,83.7,211,157,2025-03-02,2025-09-29,In Progress,12.3277,76.6329,District Agency C,25.37185185185185,9.247370119718044,-0.19160602732594786,False
-P0195,Demo MP 9,Kerala,Thrissur District,Bus Shelter,Improvement of passenger shelter at Thrissur,13.47,13.92,11.91,90.7,161,166,2024-01-08,2024-06-17,In Progress,10.5366,76.2173,District Agency A,13.026363636363635,5.457277836548308,-0.20456419295480252,False
-P0196,Demo MP 3,Tamil Nadu,Chennai District,Health Facility,Health facility improvement work at Chennai,27.97,27.22,17.79,69.5,170,177,2025-05-03,2025-10-20,In Progress,13.0479,80.3434,District Agency B,25.37185185185185,9.247370119718044,-0.8198927645044909,False
-P0197,Demo MP 7,Karnataka,Mysuru District,Sports Facility,Construction of sports facility at Mysuru,26.01,26.3,18.14,75.2,316,202,2026-07-10,2027-05-22,In Progress,12.3158,76.6527,District Agency A,22.43259259259259,8.23601032641813,-0.521198058582262,False
-P0198,Demo MP 6,Kerala,Thrissur District,Bus Shelter,Bus shelter development near Thrissur,16.25,15.83,26.72,55.3,223,154,2026-05-03,2026-12-12,In Progress,10.4777,76.182,District Agency B,13.026363636363635,5.457277836548308,2.509243028076704,True
-P0199,Demo MP 8,Karnataka,Hubballi District,Health Facility,Construction of patient waiting area at Hubballi Health Centre,34.18,32.88,32.13,89.9,137,148,2026-01-16,2026-06-02,In Progress,15.3721,75.1526,District Agency D,25.37185185185185,9.247370119718044,0.7308183905971107,False
-P0200,Demo MP 5,Tamil Nadu,Tiruchirappalli District,Road,Construction of village road near Tiruchirappalli,23.0,23.12,15.47,91.6,285,173,2026-04-19,2027-01-29,In Progress,10.8336,78.6624,District Agency C,25.5009375,8.495924396486027,-1.1806764081079704,False
-P0201,Demo MP 4,Madhya Pradesh,Bhopal District,Sanitation,Construction of public sanitation facility at Bhopal,15.31,16.24,10.81,69.0,303,186,2026-03-14,2027-01-11,In Progress,23.2945,77.4032,District Agency B,12.356363636363636,3.614392586069444,-0.42783499565697825,False
-P0202,Demo MP 2,Tamil Nadu,Salem District,Drainage,Construction of roadside drainage at Salem,18.9,19.03,13.82,72.7,192,143,2024-03-23,2024-10-01,In Progress,11.6057,78.117,District Agency D,17.486666666666665,3.997159408046334,-0.9173180982688898,False
-P0203,Demo MP 6,Uttar Pradesh,Lucknow District,Drinking Water,Water supply improvement work at Lucknow,18.68,19.44,14.0,63.6,222,176,2024-10-17,2025-05-27,In Progress,26.9106,80.9497,District Agency C,16.293666666666667,4.728764862671517,-0.4850456161973042,False
-P0204,Demo MP 8,Odisha,Bhubaneswar District,Drainage,Construction of storm water drain at Bhubaneswar,23.62,24.11,21.12,87.6,281,179,2026-04-21,2027-01-27,In Progress,20.2883,85.9007,District Agency D,17.486666666666665,3.997159408046334,0.908978842830083,False
-P0205,Demo MP 5,Tamil Nadu,Kanchipuram District,Library,Library building improvement at Kanchipuram,19.26,19.51,17.34,78.8,287,262,2024-01-28,2024-11-10,In Progress,12.8642,79.6238,District Agency B,19.273846153846154,8.047959282661948,-0.24029025072384738,False
-P0206,Demo MP 3,Uttar Pradesh,Lucknow District,Health Facility,Construction of primary health sub-centre at Lucknow,25.84,25.26,22.6,91.7,298,316,2025-01-31,2025-11-25,In Progress,26.856,80.9664,District Agency D,25.37185185185185,9.247370119718044,-0.29974488054084336,False
-P0207,Demo MP 5,Maharashtra,Nagpur District,Street Lighting,Installation of solar street lights near Nagpur,14.23,15.35,10.59,80.2,233,207,2026-02-12,2026-10-03,In Progress,21.1753,79.0302,District Agency A,14.468,6.960790783620301,-0.5571206089292998,False
-P0208,Demo MP 7,Odisha,Bhubaneswar District,Health Facility,Construction of patient waiting area at Bhubaneswar Health Centre,30.75,30.05,21.39,76.4,129,100,2025-10-04,2026-02-10,In Progress,20.3221,85.8485,District Agency C,25.37185185185185,9.247370119718044,-0.430592892930867,False
-P0209,Demo MP 9,Bihar,Patna District,Road,Construction of village road near Patna,27.95,29.04,20.57,69.3,242,204,2024-08-03,2025-04-02,In Progress,25.6179,85.1627,District Agency D,25.5009375,8.495924396486027,-0.580388580439754,False
-P0210,Demo MP 6,Kerala,Thrissur District,Irrigation,Water conservation and irrigation work at Thrissur,16.17,15.57,14.52,77.3,200,147,2025-09-24,2026-04-12,In Progress,10.4697,76.2216,District Agency B,17.548571428571428,3.9375565581146446,-0.7691499496889892,False
-P0211,Demo MP 7,Rajasthan,Jaipur District,Street Lighting,Construction of street lighting at Bus Stand Road,20.19,20.18,33.37,73.3,123,103,2024-04-07,2024-08-08,In Progress,26.8888,75.7185,District Agency D,14.468,6.960790783620301,2.7154960675558595,True
-P0212,Demo MP 3,Tamil Nadu,Salem District,Street Lighting,Construction of street lighting in Bus Stand Road,29.96,29.27,21.6,98.9,235,220,2024-07-12,2025-03-04,Completed,11.6972,78.1209,District Agency C,14.468,6.960790783620301,1.0245962307590941,False
-P0213,Demo MP 3,Madhya Pradesh,Bhopal District,Street Lighting,Installation of solar street lights near Bhopal,15.75,16.06,14.03,98.6,183,168,2024-11-22,2025-05-24,Completed,23.3081,77.3632,District Agency B,14.468,6.960790783620301,-0.06292388517561466,False
-P0214,Demo MP 5,Bihar,Patna District,Drainage,Construction of roadside drainage at Patna,20.53,20.86,16.65,90.8,299,311,2024-07-05,2025-04-30,In Progress,25.5355,85.1778,District Agency B,17.486666666666665,3.997159408046334,-0.209315311514083,False
-P0215,Demo MP 4,Maharashtra,Nagpur District,Sanitation,Improvement of sanitation facilities in Nagpur,12.36,12.35,8.22,76.4,162,124,2024-06-18,2024-11-27,In Progress,21.081,79.0318,District Agency D,12.356363636363636,3.614392586069444,-1.1444145974363622,False
-P0216,Demo MP 7,Tamil Nadu,Chennai District,Street Lighting,Installation of LED street lights at Chennai,15.14,15.65,13.91,68.5,121,96,2025-03-23,2025-07-22,In Progress,13.095,80.2136,District Agency C,14.468,6.960790783620301,-0.08016330577167333,False
-P0217,Demo MP 2,Bihar,Patna District,Health Facility,Health facility improvement work at Patna,36.12,34.98,23.02,87.5,317,242,2026-04-07,2027-02-18,In Progress,25.5945,85.1039,District Agency D,25.37185185185185,9.247370119718044,-0.25432656219058747,False
-P0218,Demo MP 9,Madhya Pradesh,Indore District,Sports Facility,Development of playground near Indore,29.42,28.96,19.05,68.7,317,199,2026-06-21,2027-05-04,In Progress,22.6728,75.9223,District Agency A,22.43259259259259,8.23601032641813,-0.41070766773354594,False
-P0219,Demo MP 3,Madhya Pradesh,Indore District,Sanitation,Construction of public sanitation facility at Indore,12.57,12.2,6.93,83.0,226,162,2026-05-23,2027-01-04,In Progress,22.7739,75.8084,District Agency C,12.356363636363636,3.614392586069444,-1.501321040021461,False
-P0220,Demo MP 1,Bihar,Patna District,Road,Improvement of road connecting Patna,26.13,25.39,22.2,91.3,217,145,2026-03-11,2026-10-14,In Progress,25.5554,85.0896,District Agency A,25.5009375,8.495924396486027,-0.3885318825771673,False
-P0221,Demo MP 6,Tamil Nadu,Madurai District,Drinking Water,Water supply improvement work at Madurai,19.16,19.25,16.63,83.5,259,160,2024-10-31,2025-07-17,In Progress,9.9021,78.0869,District Agency A,16.293666666666667,4.728764862671517,0.0711249857205462,False
-P0222,Demo MP 4,Tamil Nadu,Chennai District,Bus Shelter,Improvement of passenger shelter at Chennai,15.24,15.28,12.47,64.9,278,227,2025-07-23,2026-04-27,In Progress,13.0911,80.2829,District Agency C,13.026363636363635,5.457277836548308,-0.10194893003936394,False
-P0223,Demo MP 9,Kerala,Kochi District,Street Lighting,Street lighting improvement in Kochi,14.46,14.74,10.53,56.1,186,178,2025-09-11,2026-03-16,In Progress,9.8698,76.303,District Agency B,14.468,6.960790783620301,-0.5657403192273293,False
-P0224,Demo MP 6,Tamil Nadu,Kanchipuram District,Road,Construction of village road near Kanchipuram,24.43,24.65,23.95,63.7,159,118,2024-05-03,2024-10-09,In Progress,12.8658,79.6417,District Agency A,25.5009375,8.495924396486027,-0.1825507652400342,False
-P0225,Demo MP 6,Tamil Nadu,Chennai District,Street Lighting,Installation of LED street lights at Chennai,9.8,10.57,6.21,82.4,212,187,2024-02-14,2024-09-13,In Progress,13.0994,80.2696,District Agency C,14.468,6.960790783620301,-1.1863594606854453,False
-P0226,Demo MP 6,Tamil Nadu,Kanchipuram District,Drinking Water,Drinking water pipeline and supply system at Kanchipuram,15.86,15.33,8.49,64.4,277,211,2026-02-26,2026-11-30,In Progress,12.9095,79.706,District Agency C,16.293666666666667,4.728764862671517,-1.6502547479719647,False
-P0227,Demo MP 6,Odisha,Bhubaneswar District,Bus Shelter,Improvement of passenger shelter at Bhubaneswar,12.96,13.61,12.87,91.8,120,70,2025-04-09,2025-08-07,In Progress,20.2998,85.7684,District Agency D,13.026363636363635,5.457277836548308,-0.028652313671193846,False
-P0228,Demo MP 10,Tamil Nadu,Madurai District,Drainage,Drainage improvement work in Madurai,20.3,20.28,19.24,69.7,265,220,2026-05-15,2027-02-04,In Progress,9.9412,78.1278,District Agency C,17.486666666666665,3.997159408046334,0.4386448360813059,False
-P0229,Demo MP 2,Kerala,Kochi District,Community Hall,Community hall construction near Kochi,18.99,18.74,10.8,55.6,189,162,2025-06-15,2025-12-21,In Progress,9.8927,76.3006,District Agency D,22.616799999999998,8.88503504026105,-1.3299666176277465,False
-P0230,Demo MP 6,Tamil Nadu,Erode District,School Building,Renovation and extension of classrooms at Erode School,21.87,23.61,15.51,84.2,222,127,2024-05-14,2024-12-22,In Progress,11.2969,77.6753,District Agency D,19.797241379310346,7.108141658163006,-0.6031451799201087,False
-P0231,Demo MP 6,Rajasthan,Jaipur District,School Building,Construction of additional classrooms at Jaipur School,20.86,21.02,17.29,69.7,234,154,2025-07-08,2026-02-27,In Progress,26.9505,75.7083,District Agency C,19.797241379310346,7.108141658163006,-0.35272811093051665,False
-P0232,Demo MP 2,Kerala,Thrissur District,Library,Development of reading room at Thrissur,22.81,22.66,33.19,75.2,178,183,2024-03-16,2024-09-10,In Progress,10.5183,76.2642,District Agency A,19.273846153846154,8.047959282661948,1.729153112905776,False
-P0233,Demo MP 6,Maharashtra,Pune District,Drainage,Construction of storm water drain at Pune,20.65,19.85,11.0,82.6,194,168,2024-07-22,2025-02-01,In Progress,18.5421,73.8796,District Agency B,17.486666666666665,3.997159408046334,-1.6228191083920547,False
-P0234,Demo MP 5,Bihar,Patna District,Street Lighting,Installation of solar street lights near Patna,13.87,14.17,12.92,85.2,134,125,2025-12-14,2026-04-27,In Progress,25.5959,85.0856,District Agency C,14.468,6.960790783620301,-0.22238852568915835,False
-P0235,Demo MP 4,Tamil Nadu,Thanjavur District,Community Hall,Construction of community hall in Thanjavur,20.72,21.29,20.01,78.9,178,122,2024-11-17,2025-05-14,In Progress,10.7269,79.0892,District Agency C,22.616799999999998,8.88503504026105,-0.2933922025279268,False
-P0236,Demo MP 8,Tamil Nadu,Erode District,Bus Shelter,Improvement of passenger shelter at Erode,15.83,16.56,9.15,75.2,210,136,2025-01-12,2025-08-10,In Progress,11.4108,77.6439,District Agency A,13.026363636363635,5.457277836548308,-0.7103108458951779,False
-P0237,Demo MP 2,Maharashtra,Nagpur District,Sanitation,Construction of community toilet at Nagpur,14.27,14.06,13.17,63.5,145,155,2024-05-25,2024-10-17,In Progress,21.1314,79.0269,District Agency D,12.356363636363636,3.614392586069444,0.2251101241111089,False
-P0238,Demo MP 6,Madhya Pradesh,Bhopal District,Sanitation,Construction of community toilet at Bhopal,16.56,16.84,12.58,85.1,168,131,2025-08-08,2026-01-23,In Progress,23.2731,77.433,District Agency C,12.356363636363636,3.614392586069444,0.0618738441690871,False
-P0239,Demo MP 1,Maharashtra,Pune District,Health Facility,Construction of patient waiting area at Pune Health Centre,28.32,28.71,28.71,67.9,209,149,2025-09-22,2026-04-19,In Progress,18.4814,73.779,District Agency A,25.37185185185185,9.247370119718044,0.360983512602168,False
-P0240,Demo MP 7,Tamil Nadu,Thanjavur District,Street Lighting,Installation of solar street lights near Thanjavur,15.45,15.89,10.51,90.3,217,136,2024-12-20,2025-07-25,In Progress,10.7624,79.1148,District Agency C,14.468,6.960790783620301,-0.568613555993339,False
-P0241,Demo MP 4,Uttar Pradesh,Lucknow District,Library,Construction of library at Town Library,24.98,24.31,14.46,73.6,213,191,2024-12-09,2025-07-10,In Progress,26.8572,80.919,District Agency A,19.273846153846154,8.047959282661948,-0.5981449439259493,False
-P0242,Demo MP 10,Kerala,Kochi District,Library,Construction of library in Town Library,11.29,11.6,7.03,83.5,176,139,2026-08-04,2027-01-27,In Progress,9.9429,76.2338,District Agency D,19.273846153846154,8.047959282661948,-1.5213603503466497,False
-P0243,Demo MP 10,Karnataka,Hubballi District,Drainage,Drainage improvement work in Hubballi,20.01,19.8,16.03,92.5,293,208,2025-05-08,2026-02-25,In Progress,15.4001,75.1179,District Agency B,17.486666666666665,3.997159408046334,-0.3644254626759129,False
-P0244,Demo MP 10,Kerala,Thrissur District,Street Lighting,Installation of LED street lights at Thrissur,13.28,12.93,9.28,72.0,316,198,2026-06-02,2027-04-14,In Progress,10.4717,76.2386,District Agency D,14.468,6.960790783620301,-0.7453176171029416,False
-P0245,Demo MP 3,Maharashtra,Pune District,Library,Library building improvement at Pune,20.94,22.58,22.71,78.1,292,212,2025-12-07,2026-09-25,In Progress,18.4738,73.809,District Agency B,19.273846153846154,8.047959282661948,0.42695964597590536,False
-P0246,Demo MP 6,Karnataka,Mysuru District,School Building,Construction of additional classrooms at Mysuru School,26.75,28.79,17.09,63.0,315,291,2026-08-05,2027-06-16,In Progress,12.2327,76.6846,District Agency A,19.797241379310346,7.108141658163006,-0.38086486025518984,False
-P0247,Demo MP 10,Uttar Pradesh,Lucknow District,School Building,Construction of additional classrooms at Lucknow School,20.65,21.42,18.65,68.9,166,113,2024-10-09,2025-03-24,In Progress,26.8161,80.9307,District Agency D,19.797241379310346,7.108141658163006,-0.1613982155227384,False
-P0248,Demo MP 2,Tamil Nadu,Chennai District,Library,Library building improvement at Chennai,23.83,23.52,23.69,67.6,254,181,2024-03-27,2024-12-06,In Progress,13.0123,80.2008,District Agency D,19.273846153846154,8.047959282661948,0.5487296457460651,False
-P0249,Demo MP 1,Uttar Pradesh,Lucknow District,Library,Development of reading room at Lucknow,19.95,19.17,14.92,79.0,236,230,2024-03-04,2024-10-26,In Progress,26.86,80.9125,District Agency B,19.273846153846154,8.047959282661948,-0.5409875970950581,False
-P0250,Demo MP 4,Madhya Pradesh,Indore District,Sports Facility,Construction of sports facility at Indore,26.04,27.64,26.79,81.6,259,179,2024-09-14,2025-05-31,In Progress,22.7119,75.8794,District Agency D,22.43259259259259,8.23601032641813,0.5290677445401479,False
-P0251,Demo MP 7,Rajasthan,Jaipur District,Road,Road strengthening work at Jaipur,26.99,26.92,25.63,97.6,235,246,2024-07-22,2025-03-14,Completed,26.8361,75.7281,District Agency B,25.5009375,8.495924396486027,0.01519110740361355,False
-P0252,Demo MP 2,Uttar Pradesh,Lucknow District,Road,Improvement of road connecting Lucknow,27.17,26.53,40.1,72.8,202,187,2024-03-30,2024-10-18,In Progress,26.8923,80.9661,District Agency C,25.5009375,8.495924396486027,1.7183606890426515,False
-P0253,Demo MP 2,Tamil Nadu,Chennai District,Bus Shelter,Improvement of passenger shelter at Chennai,12.99,13.33,7.88,65.9,261,220,2024-06-04,2025-02-20,In Progress,13.1439,80.2916,District Agency B,13.026363636363635,5.457277836548308,-0.9430276028641188,False
-P0254,Demo MP 4,Tamil Nadu,Thanjavur District,School Building,Construction of school building at Thanjavur,23.64,22.74,12.78,68.9,199,109,2025-05-03,2025-11-18,In Progress,10.7085,79.0615,District Agency B,19.797241379310346,7.108141658163006,-0.9872118082018992,False
-P0255,Demo MP 1,Uttar Pradesh,Lucknow District,Drinking Water,Installation of drinking water facility at Lucknow,18.94,20.32,19.4,56.1,235,214,2025-08-21,2026-04-13,In Progress,26.8715,81.0208,District Agency B,16.293666666666667,4.728764862671517,0.6569016272842139,False
-P0256,Demo MP 4,Tamil Nadu,Madurai District,Bus Shelter,Bus shelter development near Madurai,12.45,13.29,23.61,36.4,216,373,2026-07-28,2027-03-01,Delayed,9.9169,78.1606,District Agency C,13.026363636363635,5.457277836548308,1.93936183581418,False
-P0257,Demo MP 9,Rajasthan,Jaipur District,Community Hall,Community hall construction near Jaipur,22.88,24.19,23.7,65.1,294,265,2024-03-31,2025-01-19,In Progress,26.9144,75.8376,District Agency A,22.616799999999998,8.88503504026105,0.12191285629056745,False
-P0258,Demo MP 3,Kerala,Kochi District,Sports Facility,Construction of sports facility at Kochi,27.71,29.49,18.72,92.8,207,169,2025-04-09,2025-11-02,In Progress,9.9182,76.2438,District Agency B,22.43259259259259,8.23601032641813,-0.4507756116676959,False
-P0259,Demo MP 10,Karnataka,Hubballi District,Drainage,Construction of roadside drainage at Hubballi,16.7,17.14,12.91,59.1,180,157,2024-12-01,2025-05-30,In Progress,15.3487,75.1034,District Agency D,17.486666666666665,3.997159408046334,-1.1449797717483507,False
-P0260,Demo MP 5,Tamil Nadu,Salem District,School Building,Construction of additional classrooms at Salem School,26.18,27.15,16.25,81.7,200,190,2025-08-22,2026-03-10,In Progress,11.6486,78.0782,District Agency C,19.797241379310346,7.108141658163006,-0.49903920741881763,False
-P0261,Demo MP 9,Maharashtra,Nagpur District,School Building,Renovation and extension of classrooms at Nagpur School,22.35,23.2,17.24,97.4,150,141,2026-04-25,2026-09-22,Completed,21.109,79.1594,District Agency A,19.797241379310346,7.108141658163006,-0.35976229826168504,False
-P0262,Demo MP 4,Tamil Nadu,Thanjavur District,Irrigation,Minor irrigation improvement work at Thanjavur,19.58,21.0,18.15,90.4,185,128,2024-08-02,2025-02-03,In Progress,10.7456,79.1969,District Agency C,17.548571428571428,3.9375565581146446,0.1527415701976717,False
-P0263,Demo MP 7,Madhya Pradesh,Indore District,School Building,Renovation and extension of classrooms at Indore School,20.58,20.64,17.93,90.7,181,153,2026-02-18,2026-08-18,In Progress,22.6749,75.8799,District Agency D,19.797241379310346,7.108141658163006,-0.26269051309156205,False
-P0264,Demo MP 5,Tamil Nadu,Chennai District,Drainage,Construction of storm water drain at Chennai,21.43,22.12,21.05,94.0,203,220,2026-07-20,2027-02-08,In Progress,13.0053,80.3326,District Agency D,17.486666666666665,3.997159408046334,0.891466406408586,False
-P0265,Demo MP 6,Tamil Nadu,Erode District,School Building,Construction of school building at Erode,26.36,25.46,14.3,89.2,141,107,2024-04-27,2024-09-15,In Progress,11.409,77.6626,District Agency C,19.797241379310346,7.108141658163006,-0.7733725133343821,False
-P0266,Demo MP 9,Maharashtra,Pune District,Bus Shelter,Improvement of passenger shelter at Pune,12.44,13.02,8.52,73.3,155,109,2024-12-20,2025-05-24,In Progress,18.5408,73.8308,District Agency C,13.026363636363635,5.457277836548308,-0.8257530166750463,False
-P0267,Demo MP 1,Odisha,Bhubaneswar District,Irrigation,Construction of irrigation channel near Bhubaneswar,21.96,23.48,21.41,98.1,272,234,2024-11-22,2025-08-21,Completed,20.3399,85.7809,District Agency C,17.548571428571428,3.9375565581146446,0.9806661858534614,False
-P0268,Demo MP 1,Maharashtra,Pune District,Health Facility,Construction of patient waiting area at Pune Health Centre,27.12,28.85,27.74,61.1,148,143,2026-04-02,2026-08-28,In Progress,18.534,73.8131,District Agency C,25.37185185185185,9.247370119718044,0.2560888249837191,False
-P0269,Demo MP 10,Madhya Pradesh,Bhopal District,Community Hall,Construction of community hall at Bhopal,26.58,26.01,22.48,66.5,161,100,2026-02-11,2026-07-22,In Progress,23.1939,77.345,District Agency C,22.616799999999998,8.88503504026105,-0.0153966753513195,False
-P0270,Demo MP 9,Kerala,Kochi District,Sports Facility,Construction of sports facility at Kochi,23.92,23.67,20.91,41.4,230,436,2026-03-27,2026-11-12,Delayed,9.9296,76.3363,District Agency A,22.43259259259259,8.23601032641813,-0.18487016555924746,False
-P0271,Demo MP 5,Kerala,Kochi District,Sports Facility,Construction of sports facility at Community Ground,9.83,9.77,7.67,83.3,263,177,2026-05-27,2027-02-14,In Progress,9.9865,76.3064,District Agency B,22.43259259259259,8.23601032641813,-1.792444643402104,False
-P0272,Demo MP 5,Tamil Nadu,Salem District,Sports Facility,Construction of sports facility in Community Ground,17.35,17.94,10.5,81.3,278,206,2024-10-30,2025-08-04,In Progress,11.6721,78.1405,District Agency A,22.43259259259259,8.23601032641813,-1.4488316696637895,False
-P0273,Demo MP 9,Tamil Nadu,Kanchipuram District,School Building,Construction of additional classrooms at Kanchipuram School,22.51,21.8,19.02,72.8,263,257,2024-09-21,2025-06-11,In Progress,12.9121,79.704,District Agency C,19.797241379310346,7.108141658163006,-0.10934522927209266,False
-P0274,Demo MP 1,Rajasthan,Jaipur District,Irrigation,Water conservation and irrigation work at Jaipur,22.56,24.31,18.79,68.3,121,97,2026-02-28,2026-06-29,In Progress,26.838,75.7803,District Agency B,17.548571428571428,3.9375565581146446,0.3152789180564771,False
-P0275,Demo MP 7,Tamil Nadu,Tiruchirappalli District,Irrigation,Construction of irrigation channel near Tiruchirappalli,21.5,21.3,17.11,71.8,234,131,2025-02-05,2025-09-27,In Progress,10.8617,78.6548,District Agency C,17.548571428571428,3.9375565581146446,-0.11138162007288666,False
-P0276,Demo MP 5,Rajasthan,Jaipur District,Sports Facility,Construction of sports facility at Jaipur,29.29,29.59,24.16,72.4,131,95,2024-11-02,2025-03-13,In Progress,26.9758,75.8048,District Agency B,22.43259259259259,8.23601032641813,0.20973837318616673,False
-P0277,Demo MP 8,Tamil Nadu,Tiruchirappalli District,Community Hall,Community hall construction near Tiruchirappalli,27.63,29.39,20.34,61.4,189,153,2025-12-12,2026-06-19,In Progress,10.8569,78.7013,District Agency B,22.616799999999998,8.88503504026105,-0.2562510997067608,False
-P0278,Demo MP 4,Kerala,Kochi District,Sports Facility,Development of playground near Kochi,22.94,24.21,13.33,75.8,264,222,2026-05-08,2027-01-27,In Progress,9.8531,76.3223,District Agency C,22.43259259259259,8.23601032641813,-1.105218695925475,False
-P0279,Demo MP 1,Madhya Pradesh,Bhopal District,Health Facility,Health facility improvement work at Bhopal,33.99,36.02,21.52,70.4,245,147,2024-10-01,2025-06-03,In Progress,23.3048,77.4592,District Agency C,25.37185185185185,9.247370119718044,-0.4165348420129307,False
-P0280,Demo MP 3,Madhya Pradesh,Bhopal District,Road,Road strengthening work at Bhopal,29.77,29.95,26.41,96.5,298,241,2025-03-20,2026-01-12,Completed,23.2572,77.4082,District Agency A,25.5009375,8.495924396486027,0.10699983398816444,False
-P0281,Demo MP 6,Kerala,Thrissur District,Sports Facility,Development of community sports ground at Thrissur,25.72,26.42,23.84,95.1,210,205,2024-01-28,2024-08-25,Completed,10.4517,76.1887,District Agency B,22.43259259259259,8.23601032641813,0.1708846093712336,False
-P0282,Demo MP 2,Odisha,Bhubaneswar District,Health Facility,Construction of patient waiting area at Bhubaneswar Health Centre,27.16,28.12,20.25,95.0,285,278,2024-01-12,2024-10-23,In Progress,20.311,85.8759,District Agency C,25.37185185185185,9.247370119718044,-0.5538711855958479,False
-P0283,Demo MP 4,Maharashtra,Nagpur District,Sanitation,Improvement of sanitation facilities in Nagpur,16.12,16.13,10.4,70.3,291,282,2024-01-21,2024-11-07,In Progress,21.0667,79.0626,District Agency C,12.356363636363636,3.614392586069444,-0.5412703766336375,False
-P0284,Demo MP 7,Tamil Nadu,Kanchipuram District,Drinking Water,Installation of drinking water facility at Kanchipuram,14.6,14.43,11.17,61.7,144,151,2024-04-06,2024-08-28,In Progress,12.8148,79.6499,District Agency B,16.293666666666667,4.728764862671517,-1.0835105604663222,False
-P0285,Demo MP 8,Bihar,Patna District,Drinking Water,Installation of drinking water facility at Patna,18.41,18.62,16.85,73.2,290,219,2025-09-27,2026-07-14,In Progress,25.5918,85.1542,District Agency A,16.293666666666667,4.728764862671517,0.11764876230683079,False
-P0286,Demo MP 2,Odisha,Bhubaneswar District,Sanitation,Construction of community toilet at Bhubaneswar,18.41,19.68,15.94,95.4,220,192,2026-02-03,2026-09-11,Completed,20.3155,85.8115,District Agency D,12.356363636363636,3.614392586069444,0.9914906248558553,False
-P0287,Demo MP 5,Karnataka,Mysuru District,Drainage,Drainage improvement work in Mysuru,17.02,17.94,14.69,60.8,271,247,2024-12-14,2025-09-11,In Progress,12.2733,76.677,District Agency B,17.486666666666665,3.997159408046334,-0.6996635313159987,False
-P0288,Demo MP 10,Uttar Pradesh,Lucknow District,School Building,Renovation and extension of classrooms at Lucknow School,27.06,28.55,15.78,57.9,280,274,2024-11-30,2025-09-06,In Progress,26.8068,80.9589,District Agency D,19.797241379310346,7.108141658163006,-0.5651605683318,False
-P0289,Demo MP 6,Rajasthan,Jaipur District,Health Facility,Construction of patient waiting area at Jaipur Health Centre,31.6,32.51,21.22,64.3,262,241,2025-03-11,2025-11-28,In Progress,26.9046,75.8133,District Agency C,25.37185185185185,9.247370119718044,-0.4489764979773994,False
-P0290,Demo MP 1,Odisha,Bhubaneswar District,Community Hall,Construction of community hall at Bhubaneswar,23.55,25.33,22.76,55.1,132,138,2025-07-16,2025-11-25,In Progress,20.2335,85.7787,District Agency A,22.616799999999998,8.88503504026105,0.016116987648457988,False
-P0291,Demo MP 7,Tamil Nadu,Coimbatore District,Bus Shelter,Construction of bus shelter at Main Bus Stop,27.55,26.62,19.17,99.6,214,230,2024-06-25,2025-01-25,Completed,11.0179,76.9352,District Agency C,13.026363636363635,5.457277836548308,1.1257693941274896,False
-P0292,Demo MP 5,Madhya Pradesh,Indore District,Bus Shelter,Construction of bus shelter in Main Bus Stop,21.87,22.04,12.66,73.5,214,219,2024-06-10,2025-01-10,In Progress,22.7155,75.915,District Agency D,13.026363636363635,5.457277836548308,-0.06713303726448311,False
-P0293,Demo MP 2,Tamil Nadu,Tiruchirappalli District,Drinking Water,Drinking water pipeline and supply system at Tiruchirappalli,17.7,18.47,14.85,79.8,171,141,2024-01-27,2024-07-16,In Progress,10.7248,78.7118,District Agency D,16.293666666666667,4.728764862671517,-0.30529466120484305,False
-P0294,Demo MP 4,Tamil Nadu,Kanchipuram District,Drinking Water,Installation of drinking water facility at Kanchipuram,18.69,19.55,17.69,94.9,254,205,2024-01-11,2024-09-21,In Progress,12.8935,79.6452,District Agency D,16.293666666666667,4.728764862671517,0.2952850001817336,False
-P0295,Demo MP 10,Maharashtra,Nagpur District,Library,Development of reading room at Nagpur,19.07,19.06,13.87,89.9,220,175,2026-01-11,2026-08-19,In Progress,21.0916,79.1475,District Agency C,19.273846153846154,8.047959282661948,-0.6714554539916578,False
-P0296,Demo MP 3,Madhya Pradesh,Bhopal District,School Building,Construction of additional classrooms at Bhopal School,24.81,25.51,18.52,85.9,189,167,2024-11-15,2025-05-23,In Progress,23.3057,77.4357,District Agency C,19.797241379310346,7.108141658163006,-0.17968710258377588,False
-P0297,Demo MP 4,Karnataka,Hubballi District,Drinking Water,Water supply improvement work at Hubballi,17.66,18.63,15.53,81.9,232,141,2025-10-11,2026-05-31,In Progress,15.3876,75.0729,District Agency B,16.293666666666667,4.728764862671517,-0.16149389721087415,False
-P0298,Demo MP 6,Tamil Nadu,Madurai District,Library,Development of reading room at Madurai,17.99,18.72,10.86,78.2,151,127,2026-06-02,2026-10-31,In Progress,9.8788,78.1722,District Agency C,19.273846153846154,8.047959282661948,-1.0454633104285769,False
-P0299,Demo MP 2,Rajasthan,Jaipur District,Street Lighting,Installation of solar street lights near Jaipur,16.14,16.82,30.61,86.8,297,227,2024-12-18,2025-10-11,In Progress,26.8467,75.7322,District Agency C,14.468,6.960790783620301,2.3189893938465076,True
-P0300,Demo MP 10,Rajasthan,Jaipur District,Sanitation,Construction of public sanitation facility at Jaipur,14.55,14.69,11.32,80.8,263,215,2024-07-03,2025-03-23,In Progress,26.9277,75.7571,District Agency A,12.356363636363636,3.614392586069444,-0.286732448588451,False
+project_id,category,expenditure_lakh,category_avg_expenditure_lakh,category_std_expenditure_lakh,spending_zscore,spending_anomaly
+P1001,Community Hall,23.5,22.616799999999998,8.88503504026105,0.09940309700501226,False
+P1002,Road,17.0,25.5009375,8.495924396486027,-1.0005900598075055,False
+P1003,School Building,20.5,19.797241379310346,7.108141658163006,0.09886671573048972,False
+P1004,Community Hall,43.5,22.616799999999998,8.88503504026105,2.350379025560538,True
+P1005,Road,29.0,25.5009375,8.495924396486027,0.4118518876471214,False
+P1006,Drinking Water,18.2,16.293666666666667,4.728764862671517,0.40313557317720994,False
+P1007,Community Hall,38.0,22.616799999999998,8.88503504026105,1.7313606452077686,False
+P1008,School Building,20.0,19.797241379310346,7.108141658163006,0.028524842418806498,False
+P1009,Road,31.5,25.5009375,8.495924396486027,0.7061106267001687,False
+P1010,Health Facility,33.0,25.37185185185185,9.247370119718044,0.8248991928940695,False
+P1011,Community Hall,24.2,22.616799999999998,8.88503504026105,0.17818725450445558,False
+P1012,Road,26.5,25.5009375,8.495924396486027,0.11759314859407412,False
+P1013,Community Hall,41.0,22.616799999999998,8.88503504026105,2.069007034491097,True
+P1014,Drinking Water,16.9,16.293666666666667,4.728764862671517,0.12822234789462203,False
+P1015,School Building,22.0,19.797241379310346,7.108141658163006,0.30989233566553936,False
+P0016,Drinking Water,8.81,16.293666666666667,4.728764862671517,-1.5825838002100967,False
+P0017,Road,28.02,25.5009375,8.495924396486027,0.2965024619383268,False
+P0018,Street Lighting,22.5,14.468,6.960790783620301,1.1538918852295348,False
+P0019,Library,16.68,19.273846153846154,8.047959282661948,-0.3222986179159958,False
+P0020,Road,51.23,25.5009375,8.495924396486027,3.0284005953068176,True
+P0021,Library,22.14,19.273846153846154,8.047959282661948,0.35613423794632265,False
+P0022,Road,29.98,25.5009375,8.495924396486027,0.527201313355916,False
+P0023,Road,41.06,25.5009375,8.495924396486027,1.8313560448390218,False
+P0024,Sports Facility,24.99,22.43259259259259,8.23601032641813,0.3105153230811492,False
+P0025,Sanitation,15.52,12.356363636363636,3.614392586069444,0.8752885272700093,False
+P0026,Bus Shelter,11.83,13.026363636363635,5.457277836548308,-0.21922351622843658,False
+P0027,School Building,18.26,19.797241379310346,7.108141658163006,-0.21626487670585087,False
+P0028,Community Hall,14.04,22.616799999999998,8.88503504026105,-0.9653085172017515,False
+P0029,Health Facility,17.69,25.37185185185185,9.247370119718044,-0.8307066498259802,False
+P0030,Street Lighting,12.1,14.468,6.960790783620301,-0.3401912330955601,False
+P0031,Community Hall,29.8,22.616799999999998,8.88503504026105,0.808460514500003,False
+P0032,Community Hall,17.55,22.616799999999998,8.88503504026105,-0.5702622417402565,False
+P0033,Sports Facility,27.92,22.43259259259259,8.23601032641813,0.6662700980116307,False
+P0034,Drinking Water,9.6,16.293666666666667,4.728764862671517,-1.415521147922986,False
+P0035,Bus Shelter,7.52,13.026363636363635,5.457277836548308,-1.0089945575954722,False
+P0036,Community Hall,37.52,22.616799999999998,8.88503504026105,1.6773372229224361,False
+P0037,Sports Facility,13.59,22.43259259259259,8.23601032641813,-1.073650012825842,False
+P0038,Health Facility,19.17,25.37185185185185,9.247370119718044,-0.6706611470679349,False
+P0039,Library,34.35,19.273846153846154,8.047959282661948,1.8732890310010677,False
+P0040,Library,22.03,19.273846153846154,8.047959282661948,0.34246617674763136,False
+P0041,Bus Shelter,22.42,13.026363636363635,5.457277836548308,1.7213044021188737,False
+P0042,Irrigation,13.08,17.548571428571428,3.9375565581146446,-1.134858982371301,False
+P0043,Road,41.77,25.5009375,8.495924396486027,1.9149255267300873,False
+P0044,Library,22.2,19.273846153846154,8.047959282661948,0.3635895440546996,False
+P0045,Sports Facility,45.87,22.43259259259259,8.23601032641813,2.8457234120055332,True
+P0046,Road,27.21,25.5009375,8.495924396486027,0.20116263048513966,False
+P0047,Health Facility,28.64,25.37185185185185,9.247370119718044,0.35341379287712527,False
+P0048,Drinking Water,16.63,16.293666666666667,4.728764862671517,0.0711249857205462,False
+P0049,Road,27.63,25.5009375,8.495924396486027,0.25059809864605137,False
+P0050,Library,19.82,19.273846153846154,8.047959282661948,0.06786240175574047,False
+P0051,Community Hall,19.06,22.616799999999998,8.88503504026105,-0.4003135591343146,False
+P0052,Drainage,19.22,17.486666666666665,3.997159408046334,0.43364128281802117,False
+P0053,Library,12.62,19.273846153846154,8.047959282661948,-0.8267743312495146,False
+P0054,Sanitation,9.79,12.356363636363636,3.614392586069444,-0.7100400897940333,False
+P0055,Drinking Water,12.75,16.293666666666667,4.728764862671517,-0.7493852558921001,False
+P0056,Sports Facility,20.76,22.43259259259259,8.23601032641813,-0.20308286734749717,False
+P0057,Road,22.53,25.5009375,8.495924396486027,-0.34968972902216483,False
+P0058,Sports Facility,27.27,22.43259259259259,8.23601032641813,0.5873483902625476,False
+P0059,Road,17.66,25.5009375,8.495924396486027,-0.9229057526975011,False
+P0060,Drainage,13.12,17.486666666666665,3.997159408046334,-1.09244246248386,False
+P0061,Road,14.55,25.5009375,8.495924396486027,-1.2889636240794917,False
+P0062,Road,17.68,25.5009375,8.495924396486027,-0.9205516827850767,False
+P0063,Drinking Water,20.36,16.293666666666667,4.728764862671517,0.8599144705698173,False
+P0064,School Building,45.69,19.797241379310346,7.108141658163006,3.64269029317309,True
+P0065,Drainage,12.78,17.486666666666665,3.997159408046334,-1.1775028679597026,False
+P0066,School Building,21.42,19.797241379310346,7.108141658163006,0.22829576262398707,False
+P0067,Drinking Water,18.78,16.293666666666667,4.728764862671517,0.5257891659955957,False
+P0068,Sports Facility,23.61,22.43259259259259,8.23601032641813,0.14295846662925038,False
+P0069,Irrigation,20.23,17.548571428571428,3.9375565581146446,0.6809879507387894,False
+P0070,Community Hall,23.66,22.616799999999998,8.88503504026105,0.11741090443345649,False
+P0071,Road,17.52,25.5009375,8.495924396486027,-0.9393842420844718,False
+P0072,Drainage,15.6,17.486666666666665,3.997159408046334,-0.4720018578365377,False
+P0073,Drinking Water,17.58,16.293666666666667,4.728764862671517,0.27202311188859096,False
+P0074,Bus Shelter,9.75,13.026363636363635,5.457277836548308,-0.6003659213429224,False
+P0075,Road,22.98,25.5009375,8.495924396486027,-0.2967231559926164,False
+P0076,Library,16.14,19.273846153846154,8.047959282661948,-0.3893963728913898,False
+P0077,Sanitation,8.89,12.356363636363636,3.614392586069444,-0.9590445846208459,False
+P0078,Sports Facility,39.06,22.43259259259259,8.23601032641813,2.018866750818989,True
+P0079,Street Lighting,11.24,14.468,6.960790783620301,-0.4637404140339813,False
+P0080,Sanitation,23.95,12.356363636363636,3.614392586069444,3.2076306288144907,True
+P0081,Sanitation,15.17,12.356363636363636,3.614392586069444,0.778453445948471,False
+P0082,Community Hall,19.09,22.616799999999998,8.88503504026105,-0.3969370952414812,False
+P0083,Bus Shelter,13.43,13.026363636363635,5.457277836548308,0.07396294924424474,False
+P0084,Street Lighting,14.68,14.468,6.960790783620301,0.030456309719703818,False
+P0085,Sanitation,11.62,12.356363636363636,3.614392586069444,-0.20373095031284696,False
+P0086,Drinking Water,10.84,16.293666666666667,4.728764862671517,-1.1532962253457484,False
+P0087,Sports Facility,18.9,22.43259259259259,8.23601032641813,-0.42892036952179613,False
+P0088,Library,19.61,19.273846153846154,8.047959282661948,0.04176883037642043,False
+P0089,Drinking Water,15.99,16.293666666666667,4.728764862671517,-0.06421690980318906,False
+P0090,Road,20.09,25.5009375,8.495924396486027,-0.6368862583379391,False
+P0091,School Building,23.01,19.797241379310346,7.108141658163006,0.45198291975513966,False
+P0092,School Building,32.17,19.797241379310346,7.108141658163006,1.740646038825176,False
+P0093,Bus Shelter,10.02,13.026363636363635,5.457277836548308,-0.5508907052944075,False
+P0094,Irrigation,27.25,17.548571428571428,3.9375565581146446,2.4638194850650597,True
+P0095,Health Facility,19.88,25.37185185185185,9.247370119718044,-0.5938825612853593,False
+P0096,Bus Shelter,17.4,13.026363636363635,5.457277836548308,0.8014318666983352,False
+P0097,School Building,17.34,19.797241379310346,7.108141658163006,-0.3456939235993482,False
+P0098,Health Facility,33.76,25.37185185185185,9.247370119718044,0.9070847213373899,False
+P0099,School Building,37.04,19.797241379310346,7.108141658163006,2.4257758848809705,True
+P0100,Street Lighting,9.58,14.468,6.960790783620301,-0.7022190656127946,False
+P0101,Library,10.38,19.273846153846154,8.047959282661948,-1.1051057592955937,False
+P0102,Bus Shelter,7.84,13.026363636363635,5.457277836548308,-0.9503572645009358,False
+P0103,Irrigation,13.14,17.548571428571428,3.9375565581146446,-1.1196211060095378,False
+P0104,Sanitation,9.29,12.356363636363636,3.614392586069444,-0.8483759202533738,False
+P0105,Health Facility,21.56,25.37185185185185,9.247370119718044,-0.412209287884335,False
+P0106,Sports Facility,19.71,22.43259259259259,8.23601032641813,-0.33057177986524644,False
+P0107,Drinking Water,20.77,16.293666666666667,4.728764862671517,0.9466178723897104,False
+P0108,Bus Shelter,9.45,13.026363636363635,5.457277836548308,-0.6553383836190503,False
+P0109,Drainage,20.14,17.486666666666665,3.997159408046334,0.663804732929125,False
+P0110,Sports Facility,32.91,22.43259259259259,8.23601032641813,1.2721459775007429,False
+P0111,Sanitation,13.82,12.356363636363636,3.614392586069444,0.4049467037082517,False
+P0112,Bus Shelter,13.09,13.026363636363635,5.457277836548308,0.011660825331299965,False
+P0113,Irrigation,19.82,17.548571428571428,3.9375565581146446,0.5768624622667422,False
+P0114,Road,26.53,25.5009375,8.495924396486027,0.12112425346271083,False
+P0115,School Building,19.92,19.797241379310346,7.108141658163006,0.017270142688937423,False
+P0116,Community Hall,18.22,22.616799999999998,8.88503504026105,-0.49485454813364665,False
+P0117,Community Hall,17.83,22.616799999999998,8.88503504026105,-0.5387485787404794,False
+P0118,Road,15.02,25.5009375,8.495924396486027,-1.2336429811375191,False
+P0119,Drinking Water,24.41,16.293666666666667,4.728764862671517,1.7163749031809563,False
+P0120,Library,19.08,19.273846153846154,8.047959282661948,-0.024086373580910977,False
+P0121,Drinking Water,14.9,16.293666666666667,4.728764862671517,-0.2947210756170511,False
+P0122,Drinking Water,21.54,16.293666666666667,4.728764862671517,1.1094510904417045,False
+P0123,Street Lighting,11.26,14.468,6.960790783620301,-0.46086717726797155,False
+P0124,Health Facility,65.37,25.37185185185185,9.247370119718044,4.325353871460237,True
+P0125,Drainage,18.27,17.486666666666665,3.997159408046334,0.19597250281199063,False
+P0126,Road,25.98,25.5009375,8.495924396486027,0.056387330871040336,False
+P0127,Drinking Water,17.38,16.293666666666667,4.728764862671517,0.22972876953742374,False
+P0128,Irrigation,18.31,17.548571428571428,3.9375565581146446,0.19337590716237305,False
+P0129,Drainage,14.71,17.486666666666665,3.997159408046334,-0.6946599780527135,False
+P0130,Library,16.86,19.273846153846154,8.047959282661948,-0.29993269959086444,False
+P0131,Sports Facility,17.15,22.43259259259259,8.23601032641813,-0.6414018903847114,False
+P0132,Street Lighting,10.83,14.468,6.960790783620301,-0.5226417677371822,False
+P0133,Sports Facility,14.84,22.43259259259259,8.23601032641813,-0.9218774979237595,False
+P0134,Sanitation,13.04,12.356363636363636,3.614392586069444,0.18914280819168014,False
+P0135,Health Facility,20.04,25.37185185185185,9.247370119718044,-0.5765803447709761,False
+P0136,Sports Facility,24.54,22.43259259259259,8.23601032641813,0.25587721771639965,False
+P0137,Community Hall,14.89,22.616799999999998,8.88503504026105,-0.8696420402381415,False
+P0138,School Building,12.01,19.797241379310346,7.108141658163006,-1.0955382931018913,False
+P0139,Community Hall,18.26,22.616799999999998,8.88503504026105,-0.4903525962765353,False
+P0140,Library,15.22,19.273846153846154,8.047959282661948,-0.5037110665531723,False
+P0141,Health Facility,19.05,25.37185185185185,9.247370119718044,-0.6836378094537224,False
+P0142,Bus Shelter,9.25,13.026363636363635,5.457277836548308,-0.6919866918031353,False
+P0143,Drainage,17.83,17.486666666666665,3.997159408046334,0.08589433101972346,False
+P0144,School Building,15.37,19.797241379310346,7.108141658163006,-0.6228409044473802,False
+P0145,School Building,18.34,19.797241379310346,7.108141658163006,-0.20501017697598178,False
+P0146,Irrigation,13.15,17.548571428571428,3.9375565581146446,-1.117081459949244,False
+P0147,Street Lighting,25.48,14.468,6.960790783620301,1.5820041633649946,False
+P0148,Drinking Water,12.89,16.293666666666667,4.728764862671517,-0.7197792162462828,False
+P0149,Drinking Water,19.48,16.293666666666667,4.728764862671517,0.6738193642246812,False
+P0150,Bus Shelter,9.62,13.026363636363635,5.457277836548308,-0.624187321662578,False
+P0151,Health Facility,23.52,25.37185185185185,9.247370119718044,-0.2002571355831397,False
+P0152,Health Facility,22.65,25.37185185185185,9.247370119718044,-0.2943379378800989,False
+P0153,Drinking Water,30.63,16.293666666666667,4.728764862671517,3.0317289503022606,True
+P0154,Road,16.42,25.5009375,8.495924396486027,-1.0688580872678124,False
+P0155,School Building,18.65,19.797241379310346,7.108141658163006,-0.1613982155227384,False
+P0156,School Building,16.78,19.797241379310346,7.108141658163006,-0.42447682170843326,False
+P0157,Sports Facility,17.93,22.43259259259259,8.23601032641813,-0.5466958410858119,False
+P0158,Street Lighting,6.67,14.468,6.960790783620301,-1.12027501506722,False
+P0159,Library,44.21,19.273846153846154,8.047959282661948,3.0984443348110418,True
+P0160,Community Hall,19.62,22.616799999999998,8.88503504026105,-0.33728623313475964,False
+P0161,Library,20.97,19.273846153846154,8.047959282661948,0.2107557688329685,False
+P0162,Health Facility,31.42,25.37185185185185,9.247370119718044,0.6540398048145348,False
+P0163,Irrigation,15.38,17.548571428571428,3.9375565581146446,-0.5507403885037193,False
+P0164,Library,11.56,19.273846153846154,8.047959282661948,-0.958484739164177,False
+P0165,Sanitation,12.88,12.356363636363636,3.614392586069444,0.1448753424446916,False
+P0166,Street Lighting,11.21,14.468,6.960790783620301,-0.4680502691829959,False
+P0167,Drinking Water,14.01,16.293666666666667,4.728764862671517,-0.4829308990797459,False
+P0168,Road,21.87,25.5009375,8.495924396486027,-0.42737403613216934,False
+P0169,Community Hall,14.51,22.616799999999998,8.88503504026105,-0.9124105828806965,False
+P0170,Community Hall,11.08,22.616799999999998,8.88503504026105,-1.2984529546279693,False
+P0171,Drinking Water,11.75,16.293666666666667,4.728764862671517,-0.9608569676479368,False
+P0172,Library,19.18,19.273846153846154,8.047959282661948,-0.011660863400282261,False
+P0173,Sports Facility,28.33,22.43259259259259,8.23601032641813,0.7160514828995133,False
+P0174,Street Lighting,13.47,14.468,6.960790783620301,-0.1433745146238888,False
+P0175,Drainage,20.98,17.486666666666665,3.997159408046334,0.873953969987089,False
+P0176,Street Lighting,11.15,14.468,6.960790783620301,-0.47666997948102535,False
+P0177,Sanitation,15.79,12.356363636363636,3.614392586069444,0.949989875718053,False
+P0178,Sanitation,11.87,12.356363636363636,3.614392586069444,-0.13456303508317669,False
+P0179,Street Lighting,11.09,14.468,6.960790783620301,-0.48528968977905484,False
+P0180,Sanitation,11.77,12.356363636363636,3.614392586069444,-0.1622302011750447,False
+P0181,Drainage,20.98,17.486666666666665,3.997159408046334,0.873953969987089,False
+P0182,Drainage,28.15,17.486666666666665,3.997159408046334,2.6677278148747097,True
+P0183,Health Facility,23.41,25.37185185185185,9.247370119718044,-0.21215240943677816,False
+P0184,School Building,15.26,19.797241379310346,7.108141658163006,-0.6383161165759504,False
+P0185,Irrigation,15.34,17.548571428571428,3.9375565581146446,-0.5608989727448949,False
+P0186,Health Facility,23.37,25.37185185185185,9.247370119718044,-0.21647796356537388,False
+P0187,Road,27.27,25.5009375,8.495924396486027,0.20822484022241264,False
+P0188,Drainage,18.93,17.486666666666665,3.997159408046334,0.36108976050039093,False
+P0189,Street Lighting,16.88,14.468,6.960790783620301,0.34651235398078145,False
+P0190,Sports Facility,25.19,22.43259259259259,8.23601032641813,0.33479892546548273,False
+P0191,Sanitation,9.07,12.356363636363636,3.614392586069444,-0.9092436856554834,False
+P0192,Health Facility,22.54,25.37185185185185,9.247370119718044,-0.30623321173373735,False
+P0193,Road,24.7,25.5009375,8.495924396486027,-0.09427314352412001,False
+P0194,Health Facility,23.6,25.37185185185185,9.247370119718044,-0.19160602732594786,False
+P0195,Bus Shelter,11.91,13.026363636363635,5.457277836548308,-0.20456419295480252,False
+P0196,Health Facility,17.79,25.37185185185185,9.247370119718044,-0.8198927645044909,False
+P0197,Sports Facility,18.14,22.43259259259259,8.23601032641813,-0.521198058582262,False
+P0198,Bus Shelter,26.72,13.026363636363635,5.457277836548308,2.509243028076704,True
+P0199,Health Facility,32.13,25.37185185185185,9.247370119718044,0.7308183905971107,False
+P0200,Road,15.47,25.5009375,8.495924396486027,-1.1806764081079704,False
+P0201,Sanitation,10.81,12.356363636363636,3.614392586069444,-0.42783499565697825,False
+P0202,Drainage,13.82,17.486666666666665,3.997159408046334,-0.9173180982688898,False
+P0203,Drinking Water,14.0,16.293666666666667,4.728764862671517,-0.4850456161973042,False
+P0204,Drainage,21.12,17.486666666666665,3.997159408046334,0.908978842830083,False
+P0205,Library,17.34,19.273846153846154,8.047959282661948,-0.24029025072384738,False
+P0206,Health Facility,22.6,25.37185185185185,9.247370119718044,-0.29974488054084336,False
+P0207,Street Lighting,10.59,14.468,6.960790783620301,-0.5571206089292998,False
+P0208,Health Facility,21.39,25.37185185185185,9.247370119718044,-0.430592892930867,False
+P0209,Road,20.57,25.5009375,8.495924396486027,-0.580388580439754,False
+P0210,Irrigation,14.52,17.548571428571428,3.9375565581146446,-0.7691499496889892,False
+P0211,Street Lighting,33.37,14.468,6.960790783620301,2.7154960675558595,True
+P0212,Street Lighting,21.6,14.468,6.960790783620301,1.0245962307590941,False
+P0213,Street Lighting,14.03,14.468,6.960790783620301,-0.06292388517561466,False
+P0214,Drainage,16.65,17.486666666666665,3.997159408046334,-0.209315311514083,False
+P0215,Sanitation,8.22,12.356363636363636,3.614392586069444,-1.1444145974363622,False
+P0216,Street Lighting,13.91,14.468,6.960790783620301,-0.08016330577167333,False
+P0217,Health Facility,23.02,25.37185185185185,9.247370119718044,-0.25432656219058747,False
+P0218,Sports Facility,19.05,22.43259259259259,8.23601032641813,-0.41070766773354594,False
+P0219,Sanitation,6.93,12.356363636363636,3.614392586069444,-1.501321040021461,False
+P0220,Road,22.2,25.5009375,8.495924396486027,-0.3885318825771673,False
+P0221,Drinking Water,16.63,16.293666666666667,4.728764862671517,0.0711249857205462,False
+P0222,Bus Shelter,12.47,13.026363636363635,5.457277836548308,-0.10194893003936394,False
+P0223,Street Lighting,10.53,14.468,6.960790783620301,-0.5657403192273293,False
+P0224,Road,23.95,25.5009375,8.495924396486027,-0.1825507652400342,False
+P0225,Street Lighting,6.21,14.468,6.960790783620301,-1.1863594606854453,False
+P0226,Drinking Water,8.49,16.293666666666667,4.728764862671517,-1.6502547479719647,False
+P0227,Bus Shelter,12.87,13.026363636363635,5.457277836548308,-0.028652313671193846,False
+P0228,Drainage,19.24,17.486666666666665,3.997159408046334,0.4386448360813059,False
+P0229,Community Hall,10.8,22.616799999999998,8.88503504026105,-1.3299666176277465,False
+P0230,School Building,15.51,19.797241379310346,7.108141658163006,-0.6031451799201087,False
+P0231,School Building,17.29,19.797241379310346,7.108141658163006,-0.35272811093051665,False
+P0232,Library,33.19,19.273846153846154,8.047959282661948,1.729153112905776,False
+P0233,Drainage,11.0,17.486666666666665,3.997159408046334,-1.6228191083920547,False
+P0234,Street Lighting,12.92,14.468,6.960790783620301,-0.22238852568915835,False
+P0235,Community Hall,20.01,22.616799999999998,8.88503504026105,-0.2933922025279268,False
+P0236,Bus Shelter,9.15,13.026363636363635,5.457277836548308,-0.7103108458951779,False
+P0237,Sanitation,13.17,12.356363636363636,3.614392586069444,0.2251101241111089,False
+P0238,Sanitation,12.58,12.356363636363636,3.614392586069444,0.0618738441690871,False
+P0239,Health Facility,28.71,25.37185185185185,9.247370119718044,0.360983512602168,False
+P0240,Street Lighting,10.51,14.468,6.960790783620301,-0.568613555993339,False
+P0241,Library,14.46,19.273846153846154,8.047959282661948,-0.5981449439259493,False
+P0242,Library,7.03,19.273846153846154,8.047959282661948,-1.5213603503466497,False
+P0243,Drainage,16.03,17.486666666666665,3.997159408046334,-0.3644254626759129,False
+P0244,Street Lighting,9.28,14.468,6.960790783620301,-0.7453176171029416,False
+P0245,Library,22.71,19.273846153846154,8.047959282661948,0.42695964597590536,False
+P0246,School Building,17.09,19.797241379310346,7.108141658163006,-0.38086486025518984,False
+P0247,School Building,18.65,19.797241379310346,7.108141658163006,-0.1613982155227384,False
+P0248,Library,23.69,19.273846153846154,8.047959282661948,0.5487296457460651,False
+P0249,Library,14.92,19.273846153846154,8.047959282661948,-0.5409875970950581,False
+P0250,Sports Facility,26.79,22.43259259259259,8.23601032641813,0.5290677445401479,False
+P0251,Road,25.63,25.5009375,8.495924396486027,0.01519110740361355,False
+P0252,Road,40.1,25.5009375,8.495924396486027,1.7183606890426515,False
+P0253,Bus Shelter,7.88,13.026363636363635,5.457277836548308,-0.9430276028641188,False
+P0254,School Building,12.78,19.797241379310346,7.108141658163006,-0.9872118082018992,False
+P0255,Drinking Water,19.4,16.293666666666667,4.728764862671517,0.6569016272842139,False
+P0256,Bus Shelter,23.61,13.026363636363635,5.457277836548308,1.93936183581418,False
+P0257,Community Hall,23.7,22.616799999999998,8.88503504026105,0.12191285629056745,False
+P0258,Sports Facility,18.72,22.43259259259259,8.23601032641813,-0.4507756116676959,False
+P0259,Drainage,12.91,17.486666666666665,3.997159408046334,-1.1449797717483507,False
+P0260,School Building,16.25,19.797241379310346,7.108141658163006,-0.49903920741881763,False
+P0261,School Building,17.24,19.797241379310346,7.108141658163006,-0.35976229826168504,False
+P0262,Irrigation,18.15,17.548571428571428,3.9375565581146446,0.1527415701976717,False
+P0263,School Building,17.93,19.797241379310346,7.108141658163006,-0.26269051309156205,False
+P0264,Drainage,21.05,17.486666666666665,3.997159408046334,0.891466406408586,False
+P0265,School Building,14.3,19.797241379310346,7.108141658163006,-0.7733725133343821,False
+P0266,Bus Shelter,8.52,13.026363636363635,5.457277836548308,-0.8257530166750463,False
+P0267,Irrigation,21.41,17.548571428571428,3.9375565581146446,0.9806661858534614,False
+P0268,Health Facility,27.74,25.37185185185185,9.247370119718044,0.2560888249837191,False
+P0269,Community Hall,22.48,22.616799999999998,8.88503504026105,-0.0153966753513195,False
+P0270,Sports Facility,20.91,22.43259259259259,8.23601032641813,-0.18487016555924746,False
+P0271,Sports Facility,7.67,22.43259259259259,8.23601032641813,-1.792444643402104,False
+P0272,Sports Facility,10.5,22.43259259259259,8.23601032641813,-1.4488316696637895,False
+P0273,School Building,19.02,19.797241379310346,7.108141658163006,-0.10934522927209266,False
+P0274,Irrigation,18.79,17.548571428571428,3.9375565581146446,0.3152789180564771,False
+P0275,Irrigation,17.11,17.548571428571428,3.9375565581146446,-0.11138162007288666,False
+P0276,Sports Facility,24.16,22.43259259259259,8.23601032641813,0.20973837318616673,False
+P0277,Community Hall,20.34,22.616799999999998,8.88503504026105,-0.2562510997067608,False
+P0278,Sports Facility,13.33,22.43259259259259,8.23601032641813,-1.105218695925475,False
+P0279,Health Facility,21.52,25.37185185185185,9.247370119718044,-0.4165348420129307,False
+P0280,Road,26.41,25.5009375,8.495924396486027,0.10699983398816444,False
+P0281,Sports Facility,23.84,22.43259259259259,8.23601032641813,0.1708846093712336,False
+P0282,Health Facility,20.25,25.37185185185185,9.247370119718044,-0.5538711855958479,False
+P0283,Sanitation,10.4,12.356363636363636,3.614392586069444,-0.5412703766336375,False
+P0284,Drinking Water,11.17,16.293666666666667,4.728764862671517,-1.0835105604663222,False
+P0285,Drinking Water,16.85,16.293666666666667,4.728764862671517,0.11764876230683079,False
+P0286,Sanitation,15.94,12.356363636363636,3.614392586069444,0.9914906248558553,False
+P0287,Drainage,14.69,17.486666666666665,3.997159408046334,-0.6996635313159987,False
+P0288,School Building,15.78,19.797241379310346,7.108141658163006,-0.5651605683318,False
+P0289,Health Facility,21.22,25.37185185185185,9.247370119718044,-0.4489764979773994,False
+P0290,Community Hall,22.76,22.616799999999998,8.88503504026105,0.016116987648457988,False
+P0291,Bus Shelter,19.17,13.026363636363635,5.457277836548308,1.1257693941274896,False
+P0292,Bus Shelter,12.66,13.026363636363635,5.457277836548308,-0.06713303726448311,False
+P0293,Drinking Water,14.85,16.293666666666667,4.728764862671517,-0.30529466120484305,False
+P0294,Drinking Water,17.69,16.293666666666667,4.728764862671517,0.2952850001817336,False
+P0295,Library,13.87,19.273846153846154,8.047959282661948,-0.6714554539916578,False
+P0296,School Building,18.52,19.797241379310346,7.108141658163006,-0.17968710258377588,False
+P0297,Drinking Water,15.53,16.293666666666667,4.728764862671517,-0.16149389721087415,False
+P0298,Library,10.86,19.273846153846154,8.047959282661948,-1.0454633104285769,False
+P0299,Street Lighting,30.61,14.468,6.960790783620301,2.3189893938465076,True
+P0300,Sanitation,11.32,12.356363636363636,3.614392586069444,-0.286732448588451,False
